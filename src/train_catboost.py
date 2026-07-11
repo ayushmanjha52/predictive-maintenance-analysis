@@ -1,8 +1,5 @@
 """
-Improved Model Training with Proper Evaluation
-- Stratified K-Fold Cross Validation
-- Confusion Matrix
-- Saves reports to reports/ folder
+Improved Model Training with Proper Evaluation + Feature Names Saving
 """
 
 import numpy as np
@@ -11,7 +8,6 @@ import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.metrics import classification_report, confusion_matrix
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -59,7 +55,6 @@ def train_and_evaluate(min_samples_per_class=5):
     # Reports
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     
-    # Classification Report
     report = classification_report(y, y_pred, zero_division=0, output_dict=True)
     report_df = pd.DataFrame(report).transpose()
     report_df.to_csv(REPORTS_DIR / "classification_report.csv")
@@ -67,8 +62,8 @@ def train_and_evaluate(min_samples_per_class=5):
     print("\n=== Cross-Validated Classification Report ===")
     print(classification_report(y, y_pred, zero_division=0))
     
-    # === Fixed Confusion Matrix ===
-    labels = sorted(y.unique())                    # ← Fixed line
+    # Confusion Matrix
+    labels = sorted(y.unique())
     cm = confusion_matrix(y, y_pred, labels=labels)
     
     plt.figure(figsize=(12, 10))
@@ -83,16 +78,23 @@ def train_and_evaluate(min_samples_per_class=5):
     
     print(f"\nReports saved to: {REPORTS_DIR}")
     
-    # Final model on full data
+    # === Final model on full data ===
     print("\nTraining final model on full data...")
     model.fit(X, y)
     
     # Save model
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
+    model.save_model = False  # Not needed for RandomForest
     joblib.dump(model, MODELS_DIR / "cause_classifier_model.pkl")
     joblib.dump(vectorizer, MODELS_DIR / "tfidf_vectorizer.pkl")
     
-    print("Final model saved successfully.")
+    # ====================== NEW: Save feature names ======================
+    feature_names = X.columns.tolist()
+    joblib.dump(feature_names, MODELS_DIR / "feature_names.pkl")
+    print(f"Feature names saved successfully ({len(feature_names)} features)")
+    # ===================================================================
+    
+    print("Final model and artifacts saved successfully.")
     
     return model
 
