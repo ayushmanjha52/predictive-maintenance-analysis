@@ -1,0 +1,76 @@
+2026-07-11 19:36:29,907 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:36:57,429 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:37:20,699 - INFO - GET /docs - 200 - 0.001s
+2026-07-11 19:37:20,926 - INFO - GET /openapi.json - 200 - 0.008s
+2026-07-11 19:40:26,003 - INFO - Prediction made | Top: PHOTOCELL (82.92%)
+2026-07-11 19:40:26,008 - INFO - POST /predict - 200 - 0.239s
+2026-07-11 19:46:09,147 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:46:16,589 - INFO - GET /docs - 200 - 0.001s
+2026-07-11 19:46:16,841 - INFO - GET /openapi.json - 200 - 0.013s
+2026-07-11 19:46:35,660 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:08,495 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:23,873 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:28,016 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:32,121 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:35,558 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:39,064 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:48:54,727 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:50:50,794 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:50:54,271 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:53:23,442 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:56:19,693 - INFO - Model and artifacts loaded successfully
+2026-07-11 19:56:42,330 - INFO - GET /docs - 200 - 0.001s
+2026-07-11 19:56:42,462 - INFO - GET /openapi.json - 200 - 0.011s
+2026-07-11 19:56:50,259 - INFO - GET /docs - 200 - 0.001s
+2026-07-11 19:56:50,343 - INFO - GET /openapi.json - 200 - 0.000s
+2026-07-11 19:57:16,660 - INFO - Prediction made | Top: HMD (86.81%) | Version: v1.0-final
+2026-07-11 19:57:16,666 - INFO - POST /predict - 200 - 0.245s
+2026-07-11 19:57:48,937 - INFO - GET / - 200 - 0.001s
+2026-07-11 20:10:26,766 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:10:31,169 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:10:45,281 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:10:48,806 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:11:03,325 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:11:06,893 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:11:30,529 - INFO - GET /docs - 200 - 0.003s
+2026-07-11 20:11:30,684 - INFO - GET /openapi.json - 200 - 0.052s
+2026-07-11 20:11:42,425 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:11:44,101 - ERROR - Failed to generate stats: 'final_risk_level'
+2026-07-11 20:11:44,103 - INFO - GET /stats - 500 - 0.040s
+2026-07-11 20:11:44,140 - INFO - GET /favicon.ico - 404 - 0.001s
+2026-07-11 20:13:50,769 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:14:05,090 - INFO - Model and artifacts loaded successfully
+2026-07-11 20:14:34,830 - INFO - GET /docs - 200 - 0.001s
+2026-07-11 20:14:34,911 - INFO - GET /openapi.json - 200 - 0.009s
+2026-07-11 20:15:02,387 - INFO - Prediction | Device: ENCODER (56.33%) | FMEA RPN: 280 | Risk: Medium
+2026-07-11 20:15:02,390 - INFO - POST /predict - 200 - 0.210s
+2026-07-11 20:15:50,608 - INFO - POST /predict - 422 - 0.024s
+2026-07-11 20:16:17,517 - INFO - Prediction | Device: HMD (86.81%) | FMEA RPN: 320 | Risk: High
+2026-07-11 20:16:17,520 - INFO - POST /predict - 200 - 0.155s
+2026-07-11 20:16:49,063 - INFO - GET /stats - 200 - 0.033s
+2026-07-12 00:09:31,666 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:09:35,448 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:12:17,405 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:13:01,186 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:15:16,861 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:15:49,532 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:16:46,658 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:16:49,862 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:18:27,183 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:18:34,314 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:18:41,369 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:18:51,542 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:19:09,948 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:19:14,061 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:19:26,151 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:19:29,937 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:19:42,548 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:19:51,718 - INFO - Model and artifacts loaded successfully
+2026-07-12 00:54:22,666 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:54:33,350 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:55:00,999 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:56:22,084 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:56:25,541 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:56:47,678 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:56:52,026 - INFO - Model loaded successfully: final_random_forest_model.pkl
+2026-07-12 00:56:55,802 - INFO - Model loaded successfully: final_random_forest_model.pkl

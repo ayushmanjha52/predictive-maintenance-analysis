@@ -58,6 +58,13 @@ def create_domain_features(df):
     df["encoder_coupling"] = text.str.contains("coupling|loose|slip|encoder fault|position", regex=True).astype(int)
     df["encoder_overtravel"] = text.str.contains("overtravel|over travelled|overtravelled", regex=True).astype(int)
     
+    # === ENCODER Specific Features ===
+    df["encoder_feedback"] = text.str.contains("feedback|encoder feedback|position feedback", regex=True).astype(int)
+    df["encoder_overtravel"] = text.str.contains("overtravel|over travelled|overtravelled", regex=True).astype(int)
+    df["encoder_coupling_slip"] = text.str.contains("coupling.*slip|encoder.*loose|loose coupling", regex=True).astype(int)
+    df["encoder_stand"] = text.str.contains("stand|encoder.*stand", regex=True).astype(int)
+    df["encoder_fault"] = text.str.contains("encoder fault|encoder error|encoder problem", regex=True).astype(int)
+    
     # === LVDT ===
     df["lvdt_transducer"] = text.str.contains("transducer|lvdt|position|guide|exit side", regex=True).astype(int)
     df["lvdt_stuck"] = text.str.contains("stuck|not moving|feedback missing|transducer fault", regex=True).astype(int)
