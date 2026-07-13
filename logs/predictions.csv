@@ -1,2 +1,4 @@
 2026-07-11T20:15:02.389404,encoder failure,v1.0-final,ENCODER,56.33,280,56.2,Medium,False
 2026-07-11T20:16:17.518537,HMD cleaning,v1.0-final,HMD,86.81,320,77.7,High,False
+2026-07-13T13:40:25.159177,Photocell,cause_classifier_model,PHOTOCELL,89.99,240,73.2,High,False
+2026-07-13T13:40:59.765486,Delay,cause_classifier_model,PROXIMITY,34.82,180,35.3,Low,True

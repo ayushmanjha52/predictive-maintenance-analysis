@@ -48,6 +48,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.metrics import classification_report, confusion_matrix
 
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent))
+
 from config import MODELS_DIR, REPORTS_DIR, RANDOM_STATE, MIN_CLASS_COUNT, MONTH_ORDER
 from data_loader import load_master_events, primary_device
 from feature_engineering import prepare_modeling_data
@@ -60,7 +65,7 @@ logger = logging.getLogger(__name__)
 # used to be 3-4 separate scripts.
 CANDIDATE_MODELS = {
     "random_forest_tuned": RandomForestClassifier(
-        n_estimators=430, max_depth=None, max_features="log2",
+        n_estimators=264, max_depth=None, max_features="sqrt",
         min_samples_split=8, min_samples_leaf=1,
         class_weight="balanced_subsample", random_state=RANDOM_STATE, n_jobs=-1,
     ),

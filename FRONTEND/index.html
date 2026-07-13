@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combi Mill / Field Device Reliability</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker" id="ticker"></div>
+  </div>
+
+  <div class="page">
+
+    <!-- Header -->
+    <header class="header">
+      <h1>COMBI MILL <span class="slash">/</span> FIELD DEVICE<br>RELIABILITY</h1>
+      <p class="subtitle">Tata Steel — Breakdown Mill · Nov 2025 – May 2026 · HMD / LVDT / Encoder / Photocell / Proximity</p>
+      <div class="coverage-pill">
+        <span class="coverage-label">DATA COVERAGE</span>
+        <span class="coverage-value">52.8%</span>
+        <span class="coverage-desc">resolved to a specific device</span>
+      </div>
+    </header>
+
+    <!-- KPI Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card accent-orange">
+        <div class="kpi-label">TOTAL FIELD-DEVICE DELAY</div>
+        <div class="kpi-value" id="kpi-total-delay">9,301 min</div>
+        <div class="kpi-sub">7 months · Nov'25–May'26</div>
+      </div>
+      <div class="kpi-card accent-amber">
+        <div class="kpi-label">TOTAL TAGGED EVENTS</div>
+        <div class="kpi-value" id="kpi-total-events">345</div>
+        <div class="kpi-sub" id="kpi-unresolved">309 events unresolved</div>
+      </div>
+      <div class="kpi-card accent-blue">
+        <div class="kpi-label">TOP CONTRIBUTOR (VOLUME)</div>
+        <div class="kpi-value kpi-value--word">PHOTOCELL</div>
+        <div class="kpi-sub">2329 min · 102 events</div>
+      </div>
+      <div class="kpi-card accent-green">
+        <div class="kpi-label">TOP CONTRIBUTOR<br>(SEVERITY/EVENT)</div>
+        <div class="kpi-value kpi-value--word">ENCODER</div>
+        <div class="kpi-sub">41.4 min avg per incident</div>
+      </div>
+    </section>
+
+    <!-- Alerts & Findings -->
+    <section class="panel">
+      <h2>ALERTS &amp; FINDINGS</h2>
+      <p class="panel-desc">Curated from the full 7-month dataset — not auto-generated noise, each one is traceable to specific events below.</p>
+
+      <div class="alert alert-red">
+        <h3>April spike: shared root cause, not 5 independent failures</h3>
+        <p>A single-day cluster of ~10 "Saw#2 feedback missing" proximity events plus recurring furnace cycle-gap photocell issues explain most of April's jump. Treat as 2 targeted maintenance items, not a general reliability decline.</p>
+      </div>
+
+      <div class="alert alert-amber">
+        <h3>Encoder — highest severity per incident</h3>
+        <p>Averages 41.4 min per event (vs. 22.8 for Photocell) and carries the highest FMEA RPN (240) of any device with a completed FMEA sheet. Best evidence-based case for prioritized redesign or Air Purging investment.</p>
+      </div>
+
+      <div class="alert alert-amber">
+        <h3>LVDT — second-highest severity + high RPN</h3>
+        <p>RPN 216 (avg 168.5) combined with 36.9 min avg per incident. FMEA risk and real-world outcome agree — a rare and credible convergence for a report.</p>
+      </div>
+
+      <div class="alert alert-blue">
+        <h3>Photocell — volume leader, not severity leader</h3>
+        <p>102 events (most of any device) but only 22.8 min average — moderate severity, high frequency. Priority action here is process discipline (cleaning cadence, air purge reliability), not redesign.</p>
+      </div>
+
+      <div class="alert alert-blue">
+        <h3>Data coverage gap</h3>
+        <p>47.2% of the 655 total delay events could not be resolved to a specific field device — either genuinely non-field-device delays (furnace, motor, crane) or reason text too ambiguous. Reported as-is, not rounded up.</p>
+      </div>
+
+      <div class="alert alert-red">
+        <h3>FMEA gap: Photocell &amp; Proximity</h3>
+        <p>These are your #1 and #5 empirical contributors but have no FMEA sheet in the data provided. Closing this gap would let the priority ranking be fully evidence-based across all five devices.</p>
+      </div>
+    </section>
+
+    <!-- Delay share by device -->
+    <section class="panel">
+      <h2>DELAY SHARE BY DEVICE</h2>
+      <p class="panel-desc">Total minutes, Nov'25–May'26 · bars sorted by total burden</p>
+      <div class="chart-wrap chart-wrap--bar">
+        <canvas id="delayShareChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Severity vs Frequency -->
+    <section class="panel">
+      <h2>SEVERITY VS. FREQUENCY</h2>
+      <p class="panel-desc">Total volume ≠ per-incident severity — both matter, for different reasons</p>
+      <div class="table-wrap">
+        <table class="sev-table">
+          <thead>
+            <tr>
+              <th>DEVICE</th>
+              <th>AVG MIN/EVENT</th>
+              <th></th>
+              <th>MAX SINGLE EVENT</th>
+              <th>EVENTS</th>
+            </tr>
+          </thead>
+          <tbody id="sevTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Monthly Trend -->
+    <section class="panel">
+      <h2>MONTHLY TREND</h2>
+      <p class="panel-desc">Top 5 devices · delay-minutes per month · commissioning began Oct 2025, so early months reflect a stabilizing mill</p>
+      <div class="chart-wrap chart-wrap--line">
+        <canvas id="monthlyTrendChart"></canvas>
+      </div>
+      <div class="legend" id="trendLegend"></div>
+    </section>
+
+    <!-- Event Log -->
+    <section class="panel">
+      <h2>EVENT LOG</h2>
+      <p class="panel-desc">All 655 unified delay events · filter, search, sort by clicking a column</p>
+
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search reason text… e.g. 'kick off', 'crane'">
+        <select id="deviceFilter" title="Filter by device" aria-label="Filter by device"><option value="">All devices</option></select>
+        <select id="monthFilter" title="Filter by month" aria-label="Filter by month"><option value="">All months</option></select>
+      </div>
+      <div class="event-count" id="eventCount">655 events</div>
+
+      <div class="table-wrap">
+        <table class="event-table">
+          <thead>
+            <tr>
+              <th data-key="date">DATE</th>
+              <th data-key="month">MONTH</th>
+              <th data-key="device">DEVICE</th>
+              <th data-key="minutes">MINUTES</th>
+              <th data-key="reason">REASON</th>
+            </tr>
+          </thead>
+          <tbody id="eventTableBody"></tbody>
+        </table>
+      </div>
+
+      <div class="pagination" id="pagination"></div>
+    </section>
+
+    <footer class="footer">
+      <p>Reconstructed dashboard layout — sample data generated to match reported aggregates. Replace <code>data.js</code> with your source export to go live.</p>
+    </footer>
+
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

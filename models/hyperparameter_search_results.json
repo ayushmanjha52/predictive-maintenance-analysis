@@ -1,0 +1,15 @@
+{
+  "searched_at": "2026-07-13T13:10:09.186424",
+  "best_params": {
+    "class_weight": "balanced_subsample",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 8,
+    "n_estimators": 264
+  },
+  "cv_weighted_f1": 0.7634,
+  "holdout_accuracy": 0.7027,
+  "holdout_month": "May-26",
+  "note": "These are candidate parameters, NOT a deployed model. Compare holdout_accuracy against train.py's training_manifest.json before merging into CANDIDATE_MODELS in train.py."
+}
