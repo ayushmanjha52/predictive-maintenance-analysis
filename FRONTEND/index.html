@@ -182,7 +182,12 @@
       </div>
     </div>
 
-    <button class="btn-run" id="runPredictBtn">Classify Delay</button>
+    <!-- Two actions: preview only, or classify + log as a real timestamped
+         event that updates the live dashboard. -->
+    <div class="mins-row" style="gap:8px;">
+      <button class="btn-run" id="runPredictBtn" style="flex:1;">Preview (don't log)</button>
+      <button class="btn-run" id="logPredictBtn" style="flex:1; background:var(--teal); color:#0A0E14;">Classify &amp; Log</button>
+    </div>
 
     <div id="predictError"></div>
 
@@ -192,6 +197,7 @@
         <span class="result-device-name" id="resultDeviceName">—</span>
       </div>
       <p class="result-conf">Confidence <span class="mono" id="resultConfidence">—</span></p>
+      <p class="result-conf" id="resultTimestamp" style="display:none; color: var(--text-dim); font-size: 12px;"></p>
 
       <div id="lowConfBanner" class="low-conf-banner">
         Below the 0.35 confidence threshold — treat this as a suggestion, not a confirmed classification. Consider adding more detail.
@@ -213,7 +219,6 @@
   </div>
 </aside>
 
-<script src="data.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

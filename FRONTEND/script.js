@@ -1,12 +1,14 @@
-// script.js — dashboard wiring. Talks to the FastAPI backend defined in app.py.
+ script.js — dashboard wiring. Talks to the FastAPI backend defined in app.py.
 // Every number on this page comes from a live API call -- nothing here is hand-typed data.
-
+// (data.js has been removed -- it was never actually referenced anywhere in
+// this file, so it was dead code left over from an earlier prototyping phase.)
+ 
 const state = {
   stats: null,
   events: { total: 0, limit: 50, offset: 0, events: [] },
   monthOptions: [],
 };
-
+ 
 const EXAMPLE_REASONS = [
   "Bundling area photocell 1,2 & 3 not working",
   "BDM HMD cleaning",
@@ -14,7 +16,7 @@ const EXAMPLE_REASONS = [
   "Encoder position feedback fault, billet stuck",
   "LVDT transducer reading drift on stand 3",
 ];
-
+ 
 async function apiGet(path, params = {}) {
   const url = new URL(API_BASE_URL + path, window.location.href);
   Object.entries(params).forEach(([k, v]) => { if (v !== "" && v != null) url.searchParams.set(k, v); });
@@ -25,7 +27,7 @@ async function apiGet(path, params = {}) {
   }
   return res.json();
 }
-
+ 
 async function apiPost(path, payload) {
   const res = await fetch(API_BASE_URL + path, {
     method: "POST",
@@ -38,12 +40,12 @@ async function apiPost(path, payload) {
   }
   return res.json();
 }
-
+ 
 function fmtMin(n) {
   if (n == null || isNaN(n)) return "—";
   return Math.round(n).toLocaleString() + " min";
 }
-
+ 
 // ------------------------------------------------------------- Loaders --
 async function loadStats() {
   const data = await apiGet("/stats");
@@ -54,12 +56,12 @@ async function loadStats() {
   renderSeverityTable(data);
   renderAlerts(data);
   populateDeviceFilter(data);
-
+ 
   document.getElementById("brandSub").innerHTML =
     `${data.months_covered[0] || ""} – ${data.months_covered[data.months_covered.length - 1] || ""}` +
     `<span class="sep">&middot;</span>${data.total_events} total events logged`;
 }
-
+ 
 async function loadModelInfo() {
   try {
     const info = await apiGet("/model_info");
@@ -70,14 +72,13 @@ async function loadModelInfo() {
     document.getElementById("modelInfoFooter").textContent = "MODEL: not trained yet — run `python -m src.train`";
   }
 }
-
+ 
 async function loadTrend() {
-  const promises = Object.keys(DEVICE_COLORS).slice(0, 5).map(() => null); // placeholder, real call below
   const all = await apiGet("/forecast/all_devices");
   renderTrendChart(all);
   renderForecastSummary(all);
 }
-
+ 
 async function loadEvents() {
   const search = document.getElementById("logSearch").value;
   const device = document.getElementById("logDeviceFilter").value;
@@ -90,16 +91,16 @@ async function loadEvents() {
   state.events = { ...state.events, ...data };
   renderEventLog();
 }
-
+ 
 // ------------------------------------------------------------- Renderers --
 function renderKpis(d) {
   document.getElementById("kpiTotalMinutes").textContent = fmtMin(d.total_field_device_delay_minutes);
   document.getElementById("kpiTotalMinutesFoot").textContent =
     `${d.months_covered.length} months · ${d.months_covered[0]}–${d.months_covered[d.months_covered.length-1]}`;
-
+ 
   document.getElementById("kpiTaggedEvents").textContent = d.total_tagged_events.toLocaleString();
   document.getElementById("kpiTaggedEventsFoot").textContent = `${d.unresolved_events} events unresolved`;
-
+ 
   if (d.top_contributor_volume) {
     document.getElementById("kpiTopVolume").textContent = formatDevice(d.top_contributor_volume.device);
     document.getElementById("kpiTopVolumeFoot").textContent =
@@ -111,12 +112,12 @@ function renderKpis(d) {
       `${d.top_contributor_severity.avg_minutes.toFixed(1)} min avg per incident`;
   }
 }
-
+ 
 function renderCoverage(d) {
   document.getElementById("coveragePct").textContent = `${d.coverage_pct}%`;
   document.getElementById("coverageBarFill").style.width = `${d.coverage_pct}%`;
 }
-
+ 
 function renderParetoBars(d) {
   const container = document.getElementById("paretoBars");
   const rows = [...d.pareto_by_device].sort((a, b) => b.total_minutes - a.total_minutes);
@@ -129,7 +130,7 @@ function renderParetoBars(d) {
     </div>
   `).join("");
 }
-
+ 
 function renderSeverityTable(d) {
   const rows = [...d.pareto_by_device].sort((a, b) => b.avg_minutes - a.avg_minutes);
   document.getElementById("sevTableBody").innerHTML = rows.map(r => `
@@ -142,15 +143,15 @@ function renderSeverityTable(d) {
     </tr>
   `).join("");
 }
-
+ 
 function renderAlerts(d) {
   const rows = [...d.pareto_by_device];
   const byVolume = [...rows].sort((a, b) => b.total_minutes - a.total_minutes);
   const bySeverity = [...rows].sort((a, b) => b.avg_minutes - a.avg_minutes);
   const gaps = rows.filter(r => r.is_estimated).sort((a, b) => b.total_minutes - a.total_minutes).slice(0, 5);
-
+ 
   const alerts = [];
-
+ 
   if (bySeverity[0]) {
     alerts.push({
       type: "warning",
@@ -178,7 +179,7 @@ function renderAlerts(d) {
     title: "Data coverage gap",
     body: `${d.unresolved_events} of ${d.total_events} total delay events (${(100 - d.coverage_pct).toFixed(1)}%) could not be resolved to a specific field device — either genuinely non-field-device delays or reason text too ambiguous. Reported as-is, not rounded up.`,
   });
-
+ 
   document.getElementById("alertsContainer").innerHTML = alerts.map(a => `
     <div class="alert ${a.type}">
       <p class="alert-title">${a.title}</p>
@@ -186,7 +187,7 @@ function renderAlerts(d) {
     </div>
   `).join("");
 }
-
+ 
 function populateDeviceFilter(d) {
   const sel = document.getElementById("logDeviceFilter");
   const existing = new Set(Array.from(sel.options).map(o => o.value));
@@ -205,12 +206,12 @@ function populateDeviceFilter(d) {
     monthSel.appendChild(opt);
   });
 }
-
+ 
 let trendChartInstance = null;
 function renderTrendChart(allForecasts) {
   const top5 = [...state.stats.pareto_by_device].sort((a, b) => b.total_minutes - a.total_minutes).slice(0, 5).map(r => r.device);
   const labels = (allForecasts[top5[0]] || { monthly_totals: [] }).monthly_totals.map(m => m.month);
-
+ 
   const datasets = top5.map(device => {
     const series = (allForecasts[device] || { monthly_totals: [] }).monthly_totals;
     const byMonth = Object.fromEntries(series.map(s => [s.month, s.mins]));
@@ -224,7 +225,7 @@ function renderTrendChart(allForecasts) {
       borderWidth: 2,
     };
   });
-
+ 
   const ctx = document.getElementById("trendChart").getContext("2d");
   if (trendChartInstance) trendChartInstance.destroy();
   trendChartInstance = new Chart(ctx, {
@@ -241,24 +242,22 @@ function renderTrendChart(allForecasts) {
     },
   });
 }
-
+ 
 function renderForecastSummary(allForecasts) {
-  const topDevice = [...state.stats.pareto_by_device].sort((a, b) => b.total_minutes - a.total_minutes)[0]?.device;
-  // Aggregate "ALL" forecast isn't a single endpoint call here; approximate using sum across target devices' rolling forecasts.
   let rollingSum = 0, anyTrend = false, trendSum = 0, allReliable = true;
   Object.values(allForecasts).forEach(f => {
     rollingSum += f.rolling_avg_forecast || 0;
     if (f.trend_reliable) { trendSum += f.trend_forecast || 0; anyTrend = true; }
     else { allReliable = false; }
   });
-
+ 
   document.getElementById("forecastRolling").textContent = fmtMin(rollingSum);
   document.getElementById("forecastTrend").textContent = anyTrend && allReliable ? fmtMin(trendSum) : "Unreliable";
   document.getElementById("forecastNote").textContent = allReliable
     ? "Enough months with strong linear fit for every device — trend shown with confidence."
     : "3-month rolling average is the primary figure — trend line withheld or partial where R² is too low / too few months exist.";
 }
-
+ 
 function renderEventLog() {
   const { events, total, limit, offset } = state.events;
   document.getElementById("logCount").textContent = `${total} matching events`;
@@ -271,20 +270,20 @@ function renderEventLog() {
       <td class="reason">${escapeHtml(e.reason_text || "")}</td>
     </tr>
   `).join("") : `<tr><td colspan="5" style="color:var(--text-dim);">No events match this filter.</td></tr>`;
-
+ 
   const start = total === 0 ? 0 : offset + 1;
   const end = Math.min(offset + limit, total);
   document.getElementById("logPageInfo").textContent = `${start}–${end} of ${total}`;
   document.getElementById("logPrevBtn").disabled = offset === 0;
   document.getElementById("logNextBtn").disabled = end >= total;
 }
-
+ 
 function escapeHtml(str) {
   const div = document.createElement("div");
   div.textContent = str;
   return div.innerHTML;
 }
-
+ 
 // ------------------------------------------------------------- Predict panel --
 function openPredictPanel() {
   document.getElementById("overlay").classList.add("open");
@@ -295,7 +294,7 @@ function closePredictPanel() {
   document.getElementById("overlay").classList.remove("open");
   document.getElementById("predictPanel").classList.remove("open");
 }
-
+ 
 function renderExampleChips() {
   document.getElementById("exampleChips").innerHTML = EXAMPLE_REASONS.map(r =>
     `<button type="button" class="example-chip" data-text="${escapeHtml(r)}">${escapeHtml(r.slice(0, 34))}${r.length > 34 ? "…" : ""}</button>`
@@ -306,43 +305,67 @@ function renderExampleChips() {
     });
   });
 }
-
-async function runPredict() {
+ 
+// logIt=false -> POST /predict (preview only, never touches history).
+// logIt=true  -> POST /log_event (classifies AND records a real,
+// timestamped event; the dashboard refreshes immediately afterward).
+// This is the actual "real time" behavior: a logged prediction becomes
+// part of the live historical record on the very next /stats or
+// /events call, not just a disposable one-off result.
+async function runPredict(logIt = false) {
   const reasonText = document.getElementById("reasonInput").value.trim();
   const minsVal = document.getElementById("minsInput").value;
   const errorEl = document.getElementById("predictError");
-  const btn = document.getElementById("runPredictBtn");
+  const previewBtn = document.getElementById("runPredictBtn");
+  const logBtn = document.getElementById("logPredictBtn");
   errorEl.innerHTML = "";
-
+ 
   if (reasonText.length < 3) {
     errorEl.innerHTML = `<div class="error-banner">Enter a delay description (at least 3 characters).</div>`;
     return;
   }
-
-  btn.disabled = true;
-  btn.innerHTML = `<span class="spinner"></span> Classifying…`;
-
+ 
+  const activeBtn = logIt ? logBtn : previewBtn;
+  const originalLabel = activeBtn.textContent;
+  previewBtn.disabled = true;
+  logBtn.disabled = true;
+  activeBtn.innerHTML = `<span class="spinner"></span> Classifying…`;
+ 
   try {
     const payload = { reason_text: reasonText };
     if (minsVal !== "") payload.mins = parseFloat(minsVal);
-    const result = await apiPost("/predict", payload);
-    renderPredictResult(result);
+ 
+    const result = logIt
+      ? await apiPost("/log_event", payload)
+      : await apiPost("/predict", payload);
+ 
+    renderPredictResult(result, logIt);
+ 
+    if (logIt) {
+      // A new event was just written to master_events.csv on the
+      // server -- refresh the dashboard so KPIs, Pareto bars, and the
+      // Event Log reflect it right away.
+      await loadStats();
+      await loadEvents();
+    }
   } catch (e) {
     errorEl.innerHTML = `<div class="error-banner">${escapeHtml(e.message)}</div>`;
     document.getElementById("resultBlock").classList.remove("show");
   } finally {
-    btn.disabled = false;
-    btn.textContent = "Classify Delay";
+    previewBtn.disabled = false;
+    logBtn.disabled = false;
+    previewBtn.textContent = "Preview (don't log)";
+    logBtn.textContent = "Classify & Log";
   }
 }
-
-function renderPredictResult(r) {
+ 
+function renderPredictResult(r, wasLogged) {
   document.getElementById("resultDot").style.background = deviceColor(r.predicted_device);
   document.getElementById("resultDeviceName").textContent = formatDevice(r.predicted_device);
   document.getElementById("resultConfidence").textContent = `${(r.confidence * 100).toFixed(1)}%`;
-
+ 
   document.getElementById("lowConfBanner").style.display = r.low_confidence ? "block" : "none";
-
+ 
   document.getElementById("candidatesList").innerHTML = r.top_candidates.map(c => `
     <div class="candidate-row">
       <span class="cname">${formatDevice(c.device)}</span>
@@ -350,29 +373,45 @@ function renderPredictResult(r) {
       <span class="cval">${(c.confidence * 100).toFixed(0)}%</span>
     </div>
   `).join("");
-
+ 
   const riskEl = document.getElementById("resultRisk");
   riskEl.textContent = r.fmea_risk_level + (r.fmea_rpn ? ` (RPN ${r.fmea_rpn})` : "");
   riskEl.style.color = riskColor(r.fmea_risk_level);
-
+ 
   document.getElementById("resultMinutes").textContent = r.estimated_delay_minutes != null
     ? `${r.estimated_delay_minutes} min (as entered)`
     : "Not provided";
-
+ 
+  // Show when this happened / was logged -- this is the "at what time
+  // did the delay occur" piece: a real server timestamp when logged,
+  // or the local preview time when it's just a what-if check.
+  const timeEl = document.getElementById("resultTimestamp");
+  if (wasLogged && r.logged_at_display) {
+    timeEl.textContent = `Logged to system at ${r.logged_at_display}`;
+    timeEl.style.display = "block";
+  } else {
+    const now = new Date();
+    timeEl.textContent = `Classified at ${now.toLocaleString()} — not yet logged (preview only)`;
+    timeEl.style.display = "block";
+  }
+ 
   document.getElementById("resultBlock").classList.add("show");
 }
-
+ 
 // ------------------------------------------------------------------ Init --
 function wireEvents() {
   document.getElementById("openPredictBtn").addEventListener("click", openPredictPanel);
   document.getElementById("closePredictBtn").addEventListener("click", closePredictPanel);
   document.getElementById("overlay").addEventListener("click", closePredictPanel);
   document.addEventListener("keydown", e => { if (e.key === "Escape") closePredictPanel(); });
-  document.getElementById("runPredictBtn").addEventListener("click", runPredict);
+ 
+  document.getElementById("runPredictBtn").addEventListener("click", () => runPredict(false));
+  document.getElementById("logPredictBtn").addEventListener("click", () => runPredict(true));
+ 
   document.getElementById("reasonInput").addEventListener("keydown", e => {
-    if (e.key === "Enter" && e.ctrlKey) runPredict();
+    if (e.key === "Enter" && e.ctrlKey) runPredict(false);
   });
-
+ 
   let searchDebounce;
   document.getElementById("logSearch").addEventListener("input", () => {
     clearTimeout(searchDebounce);
@@ -389,7 +428,7 @@ function wireEvents() {
     loadEvents();
   });
 }
-
+ 
 async function init() {
   renderExampleChips();
   wireEvents();
@@ -401,8 +440,8 @@ async function init() {
   } catch (e) {
     document.getElementById("alertsContainer").innerHTML =
       `<div class="alert critical"><p class="alert-title">Could not reach the API</p>` +
-      `<p class="alert-body">${escapeHtml(e.message)} — make sure the backend is running (uvicorn app:app --reload --port 8000) and that /mnt/user-data isn't blocking CORS. API base: ${API_BASE_URL}</p></div>`;
+      `<p class="alert-body">${escapeHtml(e.message)} — make sure the backend is running (uvicorn app:app --reload --port 8000). API base: ${API_BASE_URL}</p></div>`;
   }
 }
-
+ 
 init();

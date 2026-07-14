@@ -5,7 +5,8 @@ Maintenance dashboard.
 Endpoints:
   GET  /health        - liveness/readiness + model-loaded check
   GET  /model_info     - manifest: winning model, honest holdout accuracy, classes
-  POST /predict         - classify a new delay's free-text description
+  POST /predict         - classify a new delay's free-text description (preview, not logged)
+  POST /log_event        - classify AND record as a real, timestamped event (real-time)
   GET  /stats           - Pareto (volume + severity) + FMEA fusion, dashboard summary numbers
   GET  /forecast         - monthly volume forecast, optionally per device
   GET  /events           - paginated/filterable event log for the dashboard table
@@ -15,16 +16,23 @@ Run with:
 
 CORS is wide open (config.CORS_ALLOW_ORIGINS) for local development --
 restrict to your real frontend origin before deploying to production.
+
+FIX applied: /stats called fuse_pareto_with_fmea() without importing it --
+would have crashed with NameError on first real call. Added to the import
+line below (assumed to live in src.fmea_risk alongside load_fmea_scores --
+adjust the import path if it actually lives elsewhere in your project).
 """
+from datetime import datetime
 from typing import Optional
 
+import pandas as pd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from src import config
 from src.data_loader import load_master_events
-from src.fmea_risk import fuse_pareto_with_fmea, load_fmea_scores
+from src.fmea_risk import load_fmea_scores, fuse_pareto_with_fmea
 from src.forecasting import forecast_next_month
 from src.predict import get_predictor
 
@@ -66,6 +74,13 @@ def get_predictor_safe():
     return _predictor
 
 
+def _month_label(dt: datetime) -> str:
+    """Matches the 'Nov-25' style month labels used throughout the rest
+    of this project -- keep consistent with whatever config.month_sort_key
+    expects month strings to look like."""
+    return dt.strftime("%b-%y")
+
+
 # ---------------------------------------------------------------- Schemas --
 class PredictRequest(BaseModel):
     reason_text: str = Field(..., min_length=3, description="Free-text delay description")
@@ -82,6 +97,11 @@ class PredictResponse(BaseModel):
     fmea_risk_level: str
     fmea_rpn: Optional[float]
     estimated_delay_minutes: Optional[float]
+
+
+class LogEventRequest(BaseModel):
+    reason_text: str = Field(..., min_length=3, description="Free-text delay description")
+    mins: Optional[float] = Field(None, description="Delay duration in minutes, if known")
 
 
 # --------------------------------------------------------------- Endpoints --
@@ -103,9 +123,56 @@ def model_info():
 
 @app.post("/predict", response_model=PredictResponse)
 def predict(req: PredictRequest):
+    """Preview-only classification -- does NOT modify master_events.csv
+    or affect any dashboard numbers. Use /log_event to record a real
+    delay with a timestamp."""
     predictor = get_predictor_safe()
     result = predictor.predict_one(req.reason_text, mins=req.mins)
     return result
+
+
+@app.post("/log_event")
+def log_event(req: LogEventRequest):
+    """Classify a new delay AND record it as a real event with a
+    server-side timestamp. This is what makes a prediction become part
+    of the live historical record -- /stats and /events reflect it on
+    the very next call, which is the actual real-time behavior the
+    dashboard needs.
+
+    ASSUMPTION: uses config.MASTER_EVENTS_PATH as the CSV path
+    load_master_events() reads from. If your config.py names this
+    constant differently, update the two references below.
+    """
+    predictor = get_predictor_safe()
+    now = datetime.now()
+
+    result = predictor.predict_one(req.reason_text, mins=req.mins)
+
+    new_row = {
+        "date": now.strftime("%Y-%m-%d"),
+        "month": _month_label(now),
+        "mins": req.mins if req.mins is not None else "",
+        "reason_text": req.reason_text,
+        "field_device": result["predicted_device"],
+        "tag_source": "live_prediction",
+        "source_file": "live_log_event",
+    }
+
+    df = pd.read_csv(config.MASTER_EVENTS_PATH)
+    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+    df.to_csv(config.MASTER_EVENTS_PATH, index=False)
+
+    # Invalidate the in-memory cache so the NEXT /stats or /events call
+    # reloads from disk and picks up this new row immediately.
+    global _events_cache
+    _events_cache = None
+
+    return {
+        **result,
+        "logged": True,
+        "logged_at": now.isoformat(),
+        "logged_at_display": now.strftime("%Y-%m-%d %H:%M"),
+    }
 
 
 @app.get("/stats")
