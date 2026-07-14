@@ -1,127 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combi Mill • Field Device Reliability</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/static/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combi Mill / Field Device Reliability</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    /* Utility class to replace inline overflow-x styles */
+    .scroll-x { overflow-x: auto; }
+    /* Utility to replace inline color styles */
+    .text-dim { color: var(--text-dim); }
+    /* Replace inline align-items:start and margin:0 styles */
+    .align-start { align-items: start; }
+    .no-margin { margin: 0; }
+    /* Utility to replace inline font-size usage */
+    .mk-value-lg { font-size: 24px; }
+  </style>
 </head>
-<body class="bg-slate-950 text-slate-200">
-    <div class="max-w-[1280px] mx-auto p-6">
-        
-        <!-- Header -->
-        <div class="flex justify-between items-center mb-8">
-            <div>
-                <h1 class="text-4xl font-bold">COMBI MILL / FIELD DEVICE RELIABILITY</h1>
-                <p class="text-slate-400">Tata Steel — Breakdown Mill • Nov 2025 – May 2026</p>
-            </div>
-            <button onclick="showPredictModal()" 
-                    class="bg-orange-600 hover:bg-orange-700 px-8 py-3.5 rounded-2xl font-semibold flex items-center gap-2 text-lg">
-                + Predict New Delay
-            </button>
-        </div>
+<body>
 
-        <!-- KPI Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-6">
-                <div class="text-sm text-slate-400">TOTAL FIELD-DEVICE DELAY</div>
-                <div class="text-5xl font-bold mt-2">9,301 <span class="text-3xl">min</span></div>
-                <div class="text-sm text-slate-400 mt-1">7 months • Nov '25–May '26</div>
-            </div>
-            
-            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-6">
-                <div class="text-sm text-slate-400">TOTAL TAGGED EVENTS</div>
-                <div class="text-5xl font-bold mt-2">345</div>
-                <div class="text-sm text-orange-400">309 events unresolved</div>
-            </div>
-            
-            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-6 border-l-4 border-orange-500">
-                <div class="text-sm text-slate-400">TOP CONTRIBUTOR (VOLUME)</div>
-                <div class="text-4xl font-bold mt-2 text-orange-400">PHOTOCELL</div>
-                <div class="text-sm">2329 min • 102 events</div>
-            </div>
-            
-            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-6 border-l-4 border-yellow-500">
-                <div class="text-sm text-slate-400">TOP CONTRIBUTOR (SEVERITY)</div>
-                <div class="text-4xl font-bold mt-2 text-yellow-400">ENCODER</div>
-                <div class="text-sm">41.4 min avg per incident</div>
-            </div>
-        </div>
+<header class="topbar">
+  <div>
+    <p class="brand-eyebrow"><span class="dot"></span> LIVE &middot; DELAY LOG PIPELINE</p>
+    <h1 class="brand-title">COMBI MILL <span class="slash">/</span> FIELD DEVICE RELIABILITY</h1>
+    <p class="brand-sub" id="brandSub">Tata Steel — Breakdown Mill<span class="sep">&middot;</span>loading&hellip;</p>
+  </div>
+  <button class="btn-predict" id="openPredictBtn">+ Predict New Delay</button>
+</header>
 
-        <!-- Alerts & Findings -->
-        <div class="bg-slate-900 border border-slate-700 rounded-3xl p-6 mb-8">
-            <h2 class="text-xl font-semibold mb-4">ALERTS & FINDINGS</h2>
-            <div class="space-y-4">
-                <div class="bg-slate-800 border-l-4 border-red-500 p-5 rounded-2xl">
-                    <div class="font-semibold text-red-400">April spike: shared root cause, not 5 independent failures</div>
-                    <p class="text-sm text-slate-300 mt-2">A single-day cluster of ~10 "Saw#2 feedback missing" proximity events plus recurring furnace cycle-gap photocell issues explain most of April’s jump.</p>
-                </div>
-                
-                <div class="bg-slate-800 border-l-4 border-yellow-500 p-5 rounded-2xl">
-                    <div class="font-semibold text-yellow-400">Encoder — highest severity per incident</div>
-                    <p class="text-sm text-slate-300 mt-2">Averages 41.4 min per event and carries the highest FMEA RPN. Strong case for prioritized redesign.</p>
-                </div>
-            </div>
-        </div>
+<main class="page">
 
-        <!-- Charts -->
-        <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-8">
-            <div class="lg:col-span-3 bg-slate-900 border border-slate-700 rounded-3xl p-6">
-                <h3 class="font-semibold mb-4">DELAY SHARE BY DEVICE</h3>
-                <canvas id="delayShareChart" height="130"></canvas>
-            </div>
-            <div class="lg:col-span-2 bg-slate-900 border border-slate-700 rounded-3xl p-6">
-                <h3 class="font-semibold mb-4">MONTHLY TREND</h3>
-                <canvas id="monthlyTrendChart" height="130"></canvas>
-            </div>
-        </div>
+  <!-- KPI cards -->
+  <section class="kpi-grid" id="kpiGrid">
+    <div class="kpi-card c-accent">
+      <p class="kpi-label">Total Field-Device Delay</p>
+      <p class="kpi-value" id="kpiTotalMinutes">—</p>
+      <p class="kpi-foot" id="kpiTotalMinutesFoot">&nbsp;</p>
+    </div>
+    <div class="kpi-card c-gold">
+      <p class="kpi-label">Total Tagged Events</p>
+      <p class="kpi-value" id="kpiTaggedEvents">—</p>
+      <p class="kpi-foot" id="kpiTaggedEventsFoot">&nbsp;</p>
+    </div>
+    <div class="kpi-card c-blue">
+      <p class="kpi-label">Top Contributor (Volume)</p>
+      <p class="kpi-value small" id="kpiTopVolume">—</p>
+      <p class="kpi-foot" id="kpiTopVolumeFoot">&nbsp;</p>
+    </div>
+    <div class="kpi-card c-teal">
+      <p class="kpi-label">Top Contributor (Severity)</p>
+      <p class="kpi-value small" id="kpiTopSeverity">—</p>
+      <p class="kpi-foot" id="kpiTopSeverityFoot">&nbsp;</p>
+    </div>
+  </section>
 
-        <!-- Event Log -->
-        <div class="bg-slate-900 border border-slate-700 rounded-3xl p-6">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
-                <h3 class="text-xl font-semibold">EVENT LOG</h3>
-                <div class="flex gap-3">
-                    <input type="text" id="searchInput" placeholder="Search reason text..." 
-                           class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-2xl w-72"
-                           onkeyup="filterEvents()">
-                    <select id="deviceFilter" aria-label="Filter devices" onchange="filterEvents()" class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-2xl">
-                        <option value="">All Devices</option>
-                    </select>
-                </div>
-            </div>
-            
-            <div class="overflow-auto max-h-[420px]">
-                <table class="w-full text-sm">
-                    <thead>
-                        <tr class="text-left border-b border-slate-700">
-                            <th class="px-4 py-3">DATE</th>
-                            <th class="px-4 py-3">DEVICE</th>
-                            <th class="px-4 py-3">MINUTES</th>
-                            <th class="px-4 py-3">REASON</th>
-                        </tr>
-                    </thead>
-                    <tbody id="eventTableBody"></tbody>
-                </table>
-            </div>
-        </div>
+  <div class="coverage-strip">
+    <span>Data coverage: <span class="num" id="coveragePct">—</span> resolved to a specific field device</span>
+    <div class="coverage-bar"><div class="coverage-bar-fill" id="coverageBarFill"></div></div>
+  </div>
+
+  <!-- Alerts -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2 class="panel-title">Alerts &amp; Findings</h2>
+      <span class="panel-note">Derived from the current pipeline run, not hand-written</span>
+    </div>
+    <div id="alertsContainer">
+      <div class="alert info"><p class="alert-title">Loading findings…</p></div>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section class="panel">
+      <div class="panel-head">
+        <h2 class="panel-title">Delay Share by Device</h2>
+        <span class="panel-note">Total minutes, all months</span>
+      </div>
+      <div id="paretoBars"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2 class="panel-title">Monthly Trend</h2>
+        <span class="panel-note">Top 5 devices &middot; delay-minutes / month</span>
+      </div>
+      <canvas id="trendChart" height="220"></canvas>
+    </section>
+  </div>
+
+  <!-- Severity table -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2 class="panel-title">Severity vs. Frequency</h2>
+      <span class="panel-note">Total volume &ne; per-incident severity — both matter, for different reasons</span>
+    </div>
+    <div class="scroll-x">
+      <table class="sev-table">
+        <thead>
+          <tr>
+            <th>Device</th><th>Avg Min/Event</th><th>Max Single Event</th><th>Events</th><th>FMEA Risk</th>
+          </tr>
+        </thead>
+        <tbody id="sevTableBody">
+          <tr><td colspan="5" class="text-dim">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Forecast -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2 class="panel-title">Delay Volume Forecast</h2>
+      <span class="panel-note" id="forecastNote">3-month rolling average &middot; primary figure</span>
+    </div>
+    <div class="two-col align-start">
+      <div class="meta-card no-margin">
+        <p class="mk-label">Next-Month Forecast (Rolling Avg)</p>
+        <p class="mk-value mk-value-lg" id="forecastRolling">—</p>
+      </div>
+      <div class="meta-card no-margin">
+        <p class="mk-label">Linear Trend</p>
+        <p class="mk-value mk-value-lg" id="forecastTrend">—</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event log -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2 class="panel-title">Event Log</h2>
+      <span class="panel-note" id="logCount">&nbsp;</span>
+    </div>
+    <div class="log-controls">
+      <input type="text" id="logSearch" placeholder="Search reason text… e.g. 'kick off', 'cleaning'">
+      <select id="logDeviceFilter" title="Filter by device" aria-label="Filter by device"><option value="">All devices</option></select>
+      <select id="logMonthFilter" title="Filter by month" aria-label="Filter by month"><option value="">All months</option></select>
+    </div>
+    <div class="log-table-wrap">
+      <table class="log-table">
+        <thead><tr><th>Date</th><th>Month</th><th>Device</th><th>Minutes</th><th>Reason</th></tr></thead>
+        <tbody id="logTableBody">
+          <tr><td colspan="5" class="text-dim">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="log-footer">
+      <span id="logPageInfo">&nbsp;</span>
+      <div>
+        <button id="logPrevBtn">&larr; Prev</button>
+        <button id="logNextBtn">Next &rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <p class="footer-note" id="modelInfoFooter">MODEL: — &middot; HOLDOUT ACCURACY: — &middot; API: —</p>
+
+</main>
+
+<!-- Predict panel -->
+<div class="overlay" id="overlay"></div>
+<aside class="predict-panel" id="predictPanel" aria-label="Predict a new delay">
+  <div class="predict-head">
+    <div>
+      <h2>Predict New Delay</h2>
+      <p>Classify the field device, get its FMEA risk, before it's confirmed</p>
+    </div>
+    <button class="close-btn" id="closePredictBtn" aria-label="Close">&times;</button>
+  </div>
+  <div class="predict-body">
+    <label class="field-label" for="reasonInput">Delay description</label>
+    <textarea id="reasonInput" placeholder="e.g. Bundling area photocell 1,2 &amp; 3 not working"></textarea>
+
+    <div class="example-chips" id="exampleChips"></div>
+
+    <div class="mins-row">
+      <div class="field">
+        <label class="field-label" for="minsInput">Duration (minutes, optional)</label>
+        <input type="number" id="minsInput" min="0" placeholder="e.g. 25">
+      </div>
     </div>
 
-    <!-- Predict Modal -->
-    <div id="predictModal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-        <div class="bg-slate-900 w-full max-w-lg mx-4 p-8 rounded-3xl">
-            <h2 class="text-2xl font-bold mb-6">Predict Field Device Failure</h2>
-            <textarea id="modalDelayText" class="w-full bg-slate-800 p-4 rounded-2xl mb-4" rows="4" 
-                      placeholder="Enter delay description..."></textarea>
-            <div class="flex gap-3">
-                <button onclick="runPrediction()" class="flex-1 bg-orange-600 hover:bg-orange-700 py-3 rounded-2xl font-semibold">Predict Cause</button>
-                <button onclick="closePredictModal()" class="flex-1 bg-slate-700 hover:bg-slate-600 py-3 rounded-2xl">Cancel</button>
-            </div>
-            <div id="modalPredictionResult" class="mt-6"></div>
-        </div>
-    </div>
+    <button class="btn-run" id="runPredictBtn">Classify Delay</button>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="/static/script.js"></script>
+    <div id="predictError"></div>
+
+    <div class="result-block" id="resultBlock">
+      <div class="result-device-row">
+        <span class="result-device-dot" id="resultDot"></span>
+        <span class="result-device-name" id="resultDeviceName">—</span>
+      </div>
+      <p class="result-conf">Confidence <span class="mono" id="resultConfidence">—</span></p>
+
+      <div id="lowConfBanner" class="low-conf-banner">
+        Below the 0.35 confidence threshold — treat this as a suggestion, not a confirmed classification. Consider adding more detail.
+      </div>
+
+      <div id="candidatesList"></div>
+
+      <div class="result-meta-grid">
+        <div class="meta-card">
+          <p class="mk-label">FMEA Risk Level</p>
+          <p class="mk-value" id="resultRisk">—</p>
+        </div>
+        <div class="meta-card">
+          <p class="mk-label">Est. Delay Time</p>
+          <p class="mk-value" id="resultMinutes">—</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

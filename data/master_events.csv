@@ -1,658 +1,658 @@
 date,month,mins,reason_text,field_device,tag_source,source_file
-2025-11-15,Nov-25,60,"Bar overtravelled, 2 bars formed instead of 3, end of the longer bar got stuck, cutting done",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-15,Nov-25,15,"Bar overtravelled, 1 bar stuck in roller table, cutting done",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-15,Nov-25,60,"Cooling Bed sequence break, manual operation and cooling bed full",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,25,BDM HMD cleaning,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,105,Blade change of saw #1 and saw#2 (Gib crane fault),,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,65,Hood #6 communication fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,6,"Bundling area vertical chain roller table photocell 1,2 & 3 not working",PHOTOCELL,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,45,OD2 was continuously active after 1st pass (exit HMD Fault 1 billet rejected),HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,10,Bundling area collecting chain full due to crane breakdown,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,35,Bundling area collecting chain full due to crane breakdown,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,5,Bundling area collecting chain full due to crane breakdown,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,15,Bundling area collecting chain full due to crane breakdown,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,5,#7 crane down position not reaching,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,20,Extraction trolley overtravelled,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-16,Nov-25,80,Kick off not working,LASER_/_KICK-OFF,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-17,Nov-25,20,Strapping m/c not working in auto,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-17,Nov-25,15,stand 4 & 7 motor overtemperature,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-18,Nov-25,20,1 billet rejected at BDM due to HMD Continous sensing,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-18,Nov-25,20,1 billet rejected at BDM due to HMD Continous sensing,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-18,Nov-25,45,1 billet rejected at BDM due to HMD Continous sensing,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-18,Nov-25,38,"One billet overtravelled to BDM after rolled from one pass only, rejected",ENCODER,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-18,Nov-25,10,Charging roller table drive tripped in over current,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-19,Nov-25,80,"shear #3 power fault, MCB tripped",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-19,Nov-25,42,Metal overtravelled to Stopper after getting rolled from one pass only in BFM. rejected,HMD_/_LVDT,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-19,Nov-25,15,Strapping Machine in Fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-19,Nov-25,100,Run out roller table overtravelled causing strapping machine fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-19,Nov-25,10,Strapping Machine in Fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-20,Nov-25,65,One metal rejected after BDM due to shear 1 lubrication oil flow low fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-20,Nov-25,9,Shear 1 lubrication oil flow low fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-20,Nov-25,12,Shear 1 lubrication oil flow low fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-17,Nov-25,30,Disapperaing stopper not able to lift for alignment,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-17,Nov-25,10,OD#1 flickering in 2nd pass at BDM,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,20,BDM exit side guide exit transducer fault,LVDT_/_TRANSDUCER,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,15,Horizontal chain fault in bundling,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,60,"Bundling area full, due to unavaliability of crane",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,235,2 Billet cobble at BDM due to side guide of exit side transduser fault,LVDT_/_TRANSDUCER,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-23,Nov-25,74,BDM exit side guide LVDT fault,LVDT,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-23,Nov-25,10,Apron roller table motor fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,25,"Bundling area full, Bundle shifting not done due to DSL crane 7 power cut",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,17,BDM HMD cleaning,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,22,Rolling stopped due to bundling area full,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,15,Rolling stopped due to bundling area full,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,25,"Crane 8 being used for inspection, shifting not being done",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,35,Cooling bed exit roller table not moving in auto,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,10,disk saw upper clamp not working issuse,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-24,Nov-25,10,disk saw 2 roller table photocell sensing problem,PHOTOCELL,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-25,Nov-25,235,disk saw 1 motor trips again & again due to vibration in mandrel (cold shears ready for metal cutting com and balde change),,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-25,Nov-25,20,Cooling bed Extraction trolley synchronisation not ok,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-25,Nov-25,10,Cooling bed cut area disappearing stopper not moving up for synchronisation,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-25,Nov-25,25,0.75 Bar got chopped & 1 billet rejected after BDM due to emergency active in gate no #12 of cooling bed,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-25,Nov-25,33,"Bar is not aligning on bundling roller table instead it is aligning just before disapperaing stopper and showing waiting position, Commulative delay of 33 min",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,50,Section c running in mannual,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,5,photocell of cold shear showing high,PHOTOCELL,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,55,billet over travelling in bdm due to unjammming pressure low,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,60,"billet over travelling in bdm due to unjamming pressure low, 1 cobble",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-22,Nov-25,20,"billet over travelling in bdm due to unjamming pressure low, 1 cobble",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-26,Nov-25,140,Delay continues from previous shift billet over travelling in bdm due to unjamming pressure low,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-26,Nov-25,8,OD1 (HMD ) cleaning inBDM,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-26,Nov-25,25,One billet rejected at BDM,HMD_/_LVDT,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-27,Nov-25,34,Layer forming area in cb not in auto so 0.5 billet chopped,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-27,Nov-25,15,HMD cleaning in BDM,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-27,Nov-25,4,HMD OD1 Flickering,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-11-27,Nov-25,30,"kocks 415 V blower supply not ok,DC bus 1 warning",,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-27,Nov-25,30,GCS#17 unlock during rolling chopping and cobble removal(2 metal cobble),,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-29,Nov-25,15,Strapping machine fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-30,Nov-25,6,Slow rolling due to kocks cover got open during rolling,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-30,Nov-25,22,Elec working on kocks cover,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-30,Nov-25,23,BDM entry roller table 2 tripped,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-11-30,Nov-25,25,One billet overtravelled in BDM,HMD_/_LVDT,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-12-01,Nov-25,42,Charging crane #5 tripped,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-01,Nov-25,5,Lifting chain proxy was loose,PROXIMITY_SWITCH,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-12-01,Nov-25,27,Weighing proxy was loose,PROXIMITY_SWITCH,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-12-01,Nov-25,35,Billet rejected in Bdm due to stand #4 roller table fault,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-01,Nov-25,41,Mill entry HMD flickered due to scale (1 billet rejected),HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-12-02,Nov-25,18,Bundling area full due to crane # 7 tripped,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-02,Nov-25,23,OD1 flickered,HMD,pre_categorized,Nov_2025_Delay_Categorized.xlsx
-2025-12-02,Nov-25,20,05 cycle gap in furnace due to elec working on billet deposite device,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-02,Nov-25,142,Emergency active in cooling bed,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-02,Nov-25,12,Stand#7 high temperature alarm,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-03,Nov-25,10,DRT tripped,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-03,Nov-25,25,Bundling dissappearing stopper not coming up,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-2025-12-03,Nov-25,40,Bundling dissappearing stopper not coming up,,pre_categorized_nonFD,Nov_2025_Delay_Categorized.xlsx
-,Feb-26,45,Fce Zone 7 tripped,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,22,"Metal stuck at stopper, one metal cobble at BDM",LVDT,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,16,1 metal cobble at BDM due to overtravelled,HMD,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,5,"Electrical work at pellet trolley , proxy found loose",PROXIMITY_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,5,Furnace zone 6 tripped,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,3,Pallet not moving forward,PROXIMITY_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,210,Descalar DC link fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,108,Descalar DC link fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,80,1 metal cobble and one rejected due to water box 3 out of position,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,69,"One metal autochopped, Cobble in TMB, Proximity loose, one rejected in BDM",PROXIMITY_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,28,"One metal autochopped, Cobble in TMB, Proximity loose, one rejected in BDM",PROXIMITY_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,23,TMB snap shear not open,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,8,Std 11 motor overtemperature,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,16,OD#1 cleaning,HMD,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,31,Saw 2 disc dia detection in fault 200*200*12,LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,15,Furnace cycle gap 5( grease unit fault in charging),,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,8,Bundling storage photocell fault,PHOTOCELL,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,5,Saw 2 disc dia detection in fault,LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,90,Saw #2 exit photocell sensing issue,PHOTOCELL,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,82,"Kocks ISU fault, 2 metals all shear'ed",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,20,"Bdm exit transfer trolley roller tripped, 1 metal stopped rejected and 1 hot out",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,18,Metal stopped in BDM after 4th pass,LVDT,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,50,Bundling area grease unit in fault 200*200*12,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,109,"2 metal all shear'ed due to Kocks fault, Kocks communication cable found loose",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,105,"Emergency activated from WB#3 by pass roller table, Kocks in fault",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,102,"Shear 4 DC link fault 200*200*12 56,60",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,65,Shear 3 continuous sensing after back end,HMD,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,8,Heat change,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,6,Fce kick off laser cleaning,LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,25,OD-6 high after reject billet and BDM exit roller table fault.,HMD,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,145,Cooling bed full bundling area vertical chain issue,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,35,BDM transfer trolley secA DRIVE FAULT 200*200*12,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,25,disc#1 and disc#2 dia detecting photocell in fault 200*200*12,PHOTOCELL_/_LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,6,od#1 cleaned,HMD,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,4,saw#2 dia detection photocell fault,PHOTOCELL_/_LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,38,One metal chopped and one metal hot out due to Kocks lubrication emergency active,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,25,"Cooling bed photocell flickering , Cooling bed RT fault 200*200*12 53, 40",PHOTOCELL,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,12,Strapping machine fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,60,Cooling bed extraction trolley misaligned,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,21,Emergency active in bundling area,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,16,"Cooling bed full, saw 2 seq break 200*200*12",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,13,Bundling extraction trolley overtravel,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,12,Emergency active in bundling area,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,10,cold shear bucket change motor trip,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,43,Discharging door feedback not coming,PROXIMITY_/_LIMIT_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,16,Tying area roller not moving,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,9,Opening feedback not coming of furnace discharging door,PROXIMITY_/_LIMIT_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,6,Tying area roller not moving,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,4,Tying area roller not moving,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,41,Cold shear air pressure minimum,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,23,"Strapping machine in fault ,while manual strapping bar misaligned",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,13,Bar misaligned in section C &D due to photocell high,PHOTOCELL,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,10,SAW#2 CUT MISS,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,9,Bundling entry extraction trolley misaligned,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,8,Cold shear air pressure minimum,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,7,Photocell cleaning in bundling area,PHOTOCELL,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,18,Cold shear air pressure minimum,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,10,Extraction trolley not synchronised in CB,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,7,Due to tracking error 1 bar mixed up,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,54,Kocks tripped (Communication card changed),,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,28,"During biting pinch roll tripped , torque 100%",,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,28,Waterbox #2 cover not closed 200*200*1200,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,27,Kocks tripped due to overtemperture,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,15,Bdm RT2 exit side fault,LVDT,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,43,shear #4 mode unknown,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,8,"Fce discharge laser showing wrong value, laser cleaning",LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,3,Billet skew due to wrong kickoff laser value,LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,3,Billet skew due to wrong kickoff laser value,LASER,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,45,BDM tracking error after discharging +Bdm hmd cleaning in Bdm 200*200*6000 /200*200*12000,HMD,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,18,One metal rejected due to BDM exit roller table communication fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,142,Kocks stand 4 and 5 referencing command missing during stand change (Section change to 40mm),,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,60,Electrical worked on PRF RT 200*200*12000,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,10,BDM exit RT tripped,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,10,BDM exit RT in fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,8,CB full due to high viberation in both saw,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,7,Std#12 looper RT tripped,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,5,Std#12 looper RT tripped,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,110,Alignment issue in vertical chain & tying area roller are not moving,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,151,1 billet rejected at BDM due to Billet didn't enter 3rd pass,LVDT,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,110,metal stucking in vertical chain wall 200*200*12,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,32,both strapping machine strap feeding,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,30,slow rolling due to vertical tying wall changed by electrical from 370 to 250mm due to which each and every bar stuck in tying wall.,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,23,Tying position feedback missing,PROXIMITY_/_LIMIT_SWITCH,pre_categorized,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,19,cb full due to we take 5 bar in bundle.,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,14,cb full due to we take 5 bar in bundle.,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,9,slow rolling due to vertical tying wall changed by electrical from 370 to 250mm due to which each and every bar stuck in tying wall.,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,5,metal stucking in vertical chain wall,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,72,Bundling area full 200*200*12000,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,76,bdm exit roller tabel tripping and drive communcation fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,80,BDM exit roller table tripping 200*200*12000,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,37,One metal rejected due to BDM exit roller table tripped,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-,Feb-26,11,BDM exit roller table in fault,,pre_categorized_nonFD,Combi_Mill_Delay_Categorized_Feb.xlsx
-2025-12-01,Dec-25,43,emergency activated in rolling mill due to E40 RIO power MCB tripping,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-01,Dec-25,201,TWS DATA lost due to emergency active,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-01,Dec-25,55,SH#4 chute flap mcc fault (chute position closed),,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-01,Dec-25,40,kocks main motor drive fault,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-01,Dec-25,32,crun out roller table due to sequence break(high torque in cold shear),,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,10,Misalignment of section C,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,13,Misalignment of section C & D,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,11,Misalignment of section C & D,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,33,Misalignment of section C & D +Heat change in C.b,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,5,Auto sequence keep breaking for section c & D alignment,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,60,Cummulative delay of   1 hour due to Misalignment of section C & D,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,85,BDM roll gap transducer fault,LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,4,absolute encoder not healthy alarm in furnace,ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-02,Dec-25,6,cooling bed cycle gap given and length adjustment,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-03,Dec-25,3,Kick off arm encoder feedback missisng,LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-03,Dec-25,8,Kick off arm encoder feedback missisng,LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-03,Dec-25,10,Kick off arm encoder feedback missisng,LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-03,Dec-25,5,Kick off arm encoder feedback missisng,LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-03,Dec-25,8,Kick off arm encoder feedback missisng,LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-03,Dec-25,11,Kick off arm encoder feedback missisng(6-7pm),LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-04,Dec-25,120,Shear #4 isolator changing work,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-05,Dec-25,310,Shear #4 isolator changing work,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-05,Dec-25,9,Bend billet inside furnace (manual discharging),LVDT,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-05,Dec-25,3,Bundling area full due to crane 7 tripped,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-05,Dec-25,5,8 cycle gap in furnace,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-06,Dec-25,40,One metal hot out due to spindle support unlocked,PROXIMITY,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-06,Dec-25,50,Kocks cover not able to open,PROXIMITY,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-06,Dec-25,17,"Furnace tripped, Combustion air pressure low",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-06,Dec-25,15,stand 7 motor overtemperature,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-06,Dec-25,5,slow discharging due to slow charging due to PH3 flickering,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-06,Dec-25,10,Bundling area full due to crane 7 tripped,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-07,Dec-25,26,shear #4 mode changing issue,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-07,Dec-25,6,Manual charged due to wrong billet length feedback,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-07,Dec-25,9,Bar mislaligned in C&D section,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-07,Dec-25,6,Problem in charging due to encoder feedback issue,ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
+2025-11-15,Nov-25,60,"Bar overtravelled, 2 bars formed instead of 3, end of the longer bar got stuck, cutting done",,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-15,Nov-25,15,"Bar overtravelled, 1 bar stuck in roller table, cutting done",,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-15,Nov-25,60,"Cooling Bed sequence break, manual operation and cooling bed full",,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,25,BDM HMD cleaning,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,105,Blade change of saw #1 and saw#2 (Gib crane fault),,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,65,Hood #6 communication fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,6,"Bundling area vertical chain roller table photocell 1,2 & 3 not working",PHOTOCELL,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,45,OD2 was continuously active after 1st pass (exit HMD Fault 1 billet rejected),HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,10,Bundling area collecting chain full due to crane breakdown,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,35,Bundling area collecting chain full due to crane breakdown,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,5,Bundling area collecting chain full due to crane breakdown,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,15,Bundling area collecting chain full due to crane breakdown,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,5,#7 crane down position not reaching,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,20,Extraction trolley overtravelled,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-16,Nov-25,80,Kick off not working,LASER_/_KICK-OFF,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-17,Nov-25,20,Strapping m/c not working in auto,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-17,Nov-25,15,stand 4 & 7 motor overtemperature,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-18,Nov-25,20,1 billet rejected at BDM due to HMD Continous sensing,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-18,Nov-25,20,1 billet rejected at BDM due to HMD Continous sensing,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-18,Nov-25,45,1 billet rejected at BDM due to HMD Continous sensing,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-18,Nov-25,38,"One billet overtravelled to BDM after rolled from one pass only, rejected",ENCODER,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-18,Nov-25,10,Charging roller table drive tripped in over current,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-19,Nov-25,80,"shear #3 power fault, MCB tripped",,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-19,Nov-25,42,Metal overtravelled to Stopper after getting rolled from one pass only in BFM. rejected,HMD_/_LVDT,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-19,Nov-25,15,Strapping Machine in Fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-19,Nov-25,100,Run out roller table overtravelled causing strapping machine fault,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-19,Nov-25,10,Strapping Machine in Fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-20,Nov-25,65,One metal rejected after BDM due to shear 1 lubrication oil flow low fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-20,Nov-25,9,Shear 1 lubrication oil flow low fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-20,Nov-25,12,Shear 1 lubrication oil flow low fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-17,Nov-25,30,Disapperaing stopper not able to lift for alignment,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-17,Nov-25,10,OD#1 flickering in 2nd pass at BDM,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,20,BDM exit side guide exit transducer fault,LVDT_/_TRANSDUCER,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,15,Horizontal chain fault in bundling,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,60,"Bundling area full, due to unavaliability of crane",,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,235,2 Billet cobble at BDM due to side guide of exit side transduser fault,LVDT_/_TRANSDUCER,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-23,Nov-25,74,BDM exit side guide LVDT fault,LVDT,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-23,Nov-25,10,Apron roller table motor fault,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,25,"Bundling area full, Bundle shifting not done due to DSL crane 7 power cut",,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,17,BDM HMD cleaning,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,22,Rolling stopped due to bundling area full,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,15,Rolling stopped due to bundling area full,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,25,"Crane 8 being used for inspection, shifting not being done",,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,35,Cooling bed exit roller table not moving in auto,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,10,disk saw upper clamp not working issuse,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-24,Nov-25,10,disk saw 2 roller table photocell sensing problem,PHOTOCELL,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-25,Nov-25,235,disk saw 1 motor trips again & again due to vibration in mandrel (cold shears ready for metal cutting com and balde change),,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-25,Nov-25,20,Cooling bed Extraction trolley synchronisation not ok,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-25,Nov-25,10,Cooling bed cut area disappearing stopper not moving up for synchronisation,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-25,Nov-25,25,0.75 Bar got chopped & 1 billet rejected after BDM due to emergency active in gate no #12 of cooling bed,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-25,Nov-25,33,"Bar is not aligning on bundling roller table instead it is aligning just before disapperaing stopper and showing waiting position, Commulative delay of 33 min",,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,50,Section c running in mannual,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,5,photocell of cold shear showing high,PHOTOCELL,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,55,billet over travelling in bdm due to unjammming pressure low,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,60,"billet over travelling in bdm due to unjamming pressure low, 1 cobble",,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-22,Nov-25,20,"billet over travelling in bdm due to unjamming pressure low, 1 cobble",,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-26,Nov-25,140,Delay continues from previous shift billet over travelling in bdm due to unjamming pressure low,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-26,Nov-25,8,OD1 (HMD ) cleaning inBDM,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-26,Nov-25,25,One billet rejected at BDM,HMD_/_LVDT,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-27,Nov-25,34,Layer forming area in cb not in auto so 0.5 billet chopped,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-27,Nov-25,15,HMD cleaning in BDM,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-27,Nov-25,4,HMD OD1 Flickering,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-11-27,Nov-25,30,"kocks 415 V blower supply not ok,DC bus 1 warning",,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-27,Nov-25,30,GCS#17 unlock during rolling chopping and cobble removal(2 metal cobble),,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-29,Nov-25,15,Strapping machine fault,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-30,Nov-25,6,Slow rolling due to kocks cover got open during rolling,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-30,Nov-25,22,Elec working on kocks cover,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-11-30,Nov-25,23,BDM entry roller table 2 tripped,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-11-30,Nov-25,25,One billet overtravelled in BDM,HMD_/_LVDT,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-12-01,Nov-25,42,Charging crane #5 tripped,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-12-01,Nov-25,5,Lifting chain proxy was loose,PROXIMITY_SWITCH,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-12-01,Nov-25,27,Weighing proxy was loose,PROXIMITY_SWITCH,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-12-01,Nov-25,35,Billet rejected in Bdm due to stand #4 roller table fault,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-12-01,Nov-25,41,Mill entry HMD flickered due to scale (1 billet rejected),HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-12-02,Nov-25,18,Bundling area full due to crane # 7 tripped,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-12-02,Nov-25,23,OD1 flickered,HMD,explicit_sensor_column,Nov_2025_Delay_Categorized.xlsx
+2025-12-02,Nov-25,20,05 cycle gap in furnace due to elec working on billet deposite device,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-12-02,Nov-25,142,Emergency active in cooling bed,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-12-02,Nov-25,12,Stand#7 high temperature alarm,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-12-03,Nov-25,10,DRT tripped,,reclassified_non_device,Nov_2025_Delay_Categorized.xlsx
+2025-12-03,Nov-25,25,Bundling dissappearing stopper not coming up,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2025-12-03,Nov-25,40,Bundling dissappearing stopper not coming up,,unresolved,Nov_2025_Delay_Categorized.xlsx
+2026-02-01,Feb-26,45,Fce Zone 7 tripped,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-01,Feb-26,22,"Metal stuck at stopper, one metal cobble at BDM",LVDT,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-01,Feb-26,16,1 metal cobble at BDM due to overtravelled,HMD,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-01,Feb-26,5,"Electrical work at pellet trolley , proxy found loose",PROXIMITY_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-01,Feb-26,5,Furnace zone 6 tripped,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-01,Feb-26,3,Pallet not moving forward,PROXIMITY_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,210,Descalar DC link fault,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,108,Descalar DC link fault,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,80,1 metal cobble and one rejected due to water box 3 out of position,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,69,"One metal autochopped, Cobble in TMB, Proximity loose, one rejected in BDM",PROXIMITY_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,28,"One metal autochopped, Cobble in TMB, Proximity loose, one rejected in BDM",PROXIMITY_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,23,TMB snap shear not open,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-02,Feb-26,8,Std 11 motor overtemperature,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-05,Feb-26,16,OD#1 cleaning,HMD,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-06,Feb-26,31,Saw 2 disc dia detection in fault 200*200*12,LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-06,Feb-26,15,Furnace cycle gap 5( grease unit fault in charging),,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-06,Feb-26,8,Bundling storage photocell fault,PHOTOCELL,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-06,Feb-26,5,Saw 2 disc dia detection in fault,LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-07,Feb-26,90,Saw #2 exit photocell sensing issue,PHOTOCELL,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-07,Feb-26,82,"Kocks ISU fault, 2 metals all shear'ed",,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-07,Feb-26,20,"Bdm exit transfer trolley roller tripped, 1 metal stopped rejected and 1 hot out",,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-07,Feb-26,18,Metal stopped in BDM after 4th pass,LVDT,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-07,Feb-26,50,Bundling area grease unit in fault 200*200*12,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-08,Feb-26,109,"2 metal all shear'ed due to Kocks fault, Kocks communication cable found loose",,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-08,Feb-26,105,"Emergency activated from WB#3 by pass roller table, Kocks in fault",,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-08,Feb-26,102,"Shear 4 DC link fault 200*200*12 56,60",,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-08,Feb-26,65,Shear 3 continuous sensing after back end,HMD,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-08,Feb-26,8,Heat change,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-09,Feb-26,6,Fce kick off laser cleaning,LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-11,Feb-26,25,OD-6 high after reject billet and BDM exit roller table fault.,HMD,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-11,Feb-26,145,Cooling bed full bundling area vertical chain issue,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-11,Feb-26,35,BDM transfer trolley secA DRIVE FAULT 200*200*12,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-12,Feb-26,25,disc#1 and disc#2 dia detecting photocell in fault 200*200*12,PHOTOCELL_/_LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-12,Feb-26,6,od#1 cleaned,HMD,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-12,Feb-26,4,saw#2 dia detection photocell fault,PHOTOCELL_/_LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-13,Feb-26,38,One metal chopped and one metal hot out due to Kocks lubrication emergency active,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-14,Feb-26,25,"Cooling bed photocell flickering , Cooling bed RT fault 200*200*12 53, 40",PHOTOCELL,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-14,Feb-26,12,Strapping machine fault,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-15,Feb-26,60,Cooling bed extraction trolley misaligned,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-15,Feb-26,21,Emergency active in bundling area,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-15,Feb-26,16,"Cooling bed full, saw 2 seq break 200*200*12",,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-15,Feb-26,13,Bundling extraction trolley overtravel,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-15,Feb-26,12,Emergency active in bundling area,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-16,Feb-26,10,cold shear bucket change motor trip,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-16,Feb-26,43,Discharging door feedback not coming,PROXIMITY_/_LIMIT_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-16,Feb-26,16,Tying area roller not moving,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-16,Feb-26,9,Opening feedback not coming of furnace discharging door,PROXIMITY_/_LIMIT_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-16,Feb-26,6,Tying area roller not moving,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-16,Feb-26,4,Tying area roller not moving,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,41,Cold shear air pressure minimum,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,23,"Strapping machine in fault ,while manual strapping bar misaligned",,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,13,Bar misaligned in section C &D due to photocell high,PHOTOCELL,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,10,SAW#2 CUT MISS,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,9,Bundling entry extraction trolley misaligned,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,8,Cold shear air pressure minimum,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-17,Feb-26,7,Photocell cleaning in bundling area,PHOTOCELL,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-18,Feb-26,18,Cold shear air pressure minimum,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-18,Feb-26,10,Extraction trolley not synchronised in CB,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-18,Feb-26,7,Due to tracking error 1 bar mixed up,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-19,Feb-26,54,Kocks tripped (Communication card changed),,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-19,Feb-26,28,"During biting pinch roll tripped , torque 100%",,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-19,Feb-26,28,Waterbox #2 cover not closed 200*200*1200,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-19,Feb-26,27,Kocks tripped due to overtemperture,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-19,Feb-26,15,Bdm RT2 exit side fault,LVDT,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-20,Feb-26,43,shear #4 mode unknown,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-20,Feb-26,8,"Fce discharge laser showing wrong value, laser cleaning",LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-20,Feb-26,3,Billet skew due to wrong kickoff laser value,LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-20,Feb-26,3,Billet skew due to wrong kickoff laser value,LASER,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-21,Feb-26,45,BDM tracking error after discharging +Bdm hmd cleaning in Bdm 200*200*6000 /200*200*12000,HMD,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-22,Feb-26,18,One metal rejected due to BDM exit roller table communication fault,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-23,Feb-26,142,Kocks stand 4 and 5 referencing command missing during stand change (Section change to 40mm),,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-24,Feb-26,60,Electrical worked on PRF RT 200*200*12000,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-24,Feb-26,10,BDM exit RT tripped,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-24,Feb-26,10,BDM exit RT in fault,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-24,Feb-26,8,CB full due to high viberation in both saw,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-24,Feb-26,7,Std#12 looper RT tripped,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-24,Feb-26,5,Std#12 looper RT tripped,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,110,Alignment issue in vertical chain & tying area roller are not moving,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,151,1 billet rejected at BDM due to Billet didn't enter 3rd pass,LVDT,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,110,metal stucking in vertical chain wall 200*200*12,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,32,both strapping machine strap feeding,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,30,slow rolling due to vertical tying wall changed by electrical from 370 to 250mm due to which each and every bar stuck in tying wall.,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,23,Tying position feedback missing,PROXIMITY_/_LIMIT_SWITCH,explicit_sensor_column,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,19,cb full due to we take 5 bar in bundle.,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,14,cb full due to we take 5 bar in bundle.,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,9,slow rolling due to vertical tying wall changed by electrical from 370 to 250mm due to which each and every bar stuck in tying wall.,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-26,Feb-26,5,metal stucking in vertical chain wall,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-27,Feb-26,72,Bundling area full 200*200*12000,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-27,Feb-26,76,bdm exit roller tabel tripping and drive communcation fault,,unresolved,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-28,Feb-26,80,BDM exit roller table tripping 200*200*12000,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-28,Feb-26,37,One metal rejected due to BDM exit roller table tripped,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2026-02-28,Feb-26,11,BDM exit roller table in fault,,reclassified_non_device,Combi_Mill_Delay_Categorized_Feb.xlsx
+2025-12-01,Dec-25,43,emergency activated in rolling mill due to E40 RIO power MCB tripping,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-01,Dec-25,201,TWS DATA lost due to emergency active,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-01,Dec-25,55,SH#4 chute flap mcc fault (chute position closed),,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-01,Dec-25,40,kocks main motor drive fault,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-01,Dec-25,32,crun out roller table due to sequence break(high torque in cold shear),,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,10,Misalignment of section C,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,13,Misalignment of section C & D,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,11,Misalignment of section C & D,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,33,Misalignment of section C & D +Heat change in C.b,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,5,Auto sequence keep breaking for section c & D alignment,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,60,Cummulative delay of   1 hour due to Misalignment of section C & D,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,85,BDM roll gap transducer fault,LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,4,absolute encoder not healthy alarm in furnace,ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-02,Dec-25,6,cooling bed cycle gap given and length adjustment,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-03,Dec-25,3,Kick off arm encoder feedback missisng,LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-03,Dec-25,8,Kick off arm encoder feedback missisng,LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-03,Dec-25,10,Kick off arm encoder feedback missisng,LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-03,Dec-25,5,Kick off arm encoder feedback missisng,LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-03,Dec-25,8,Kick off arm encoder feedback missisng,LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-03,Dec-25,11,Kick off arm encoder feedback missisng(6-7pm),LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-04,Dec-25,120,Shear #4 isolator changing work,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-05,Dec-25,310,Shear #4 isolator changing work,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-05,Dec-25,9,Bend billet inside furnace (manual discharging),LVDT,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-05,Dec-25,3,Bundling area full due to crane 7 tripped,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-05,Dec-25,5,8 cycle gap in furnace,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-06,Dec-25,40,One metal hot out due to spindle support unlocked,PROXIMITY,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-06,Dec-25,50,Kocks cover not able to open,PROXIMITY,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-06,Dec-25,17,"Furnace tripped, Combustion air pressure low",,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-06,Dec-25,15,stand 7 motor overtemperature,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-06,Dec-25,5,slow discharging due to slow charging due to PH3 flickering,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-06,Dec-25,10,Bundling area full due to crane 7 tripped,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-07,Dec-25,26,shear #4 mode changing issue,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-07,Dec-25,6,Manual charged due to wrong billet length feedback,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-07,Dec-25,9,Bar mislaligned in C&D section,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-07,Dec-25,6,Problem in charging due to encoder feedback issue,ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
 2025-12-08,Dec-25,80,bar tracking fault in kocks (entry and exit hmd fault),HMD,keyword:hmd,Electrical_Delay_Report_Dec25.xlsx
-2025-12-09,Dec-25,9,Discharging stopped due to kick off 2 not moving in reverse,ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-09,Dec-25,10,Runout table photocell continue sensing high in bundling area,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-10,Dec-25,65,Bundling area extraction trolley overtravel,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-10,Dec-25,14,Stand-4 overtemperature alarm,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-12,Dec-25,55,Stand #6 motor torque over drive limit,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-12,Dec-25,20,shear #2 motor overtemperature,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-16,Dec-25,75,TMB 2.1 drive falut + kocks exit roller table drive fault,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-17,Dec-25,175,Cooling conveyor hood not positioning,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,25,Cooling bed full due to saw#1 wheel stopper auto-positioning fault,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,84,Cooling bed full due to saw#1 wheel stopper auto-positioning fault,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,30,Cooling bed full due to saw#1 wheel stopper auto-positioning fault,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,48,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,12,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,26,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,8,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,53,Cooling bed full due to saw#2 gear box luberication oil flow low + Saw 2 lifting arm not working,PRESSURE_SWITCH,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,13,Temp raising in furnace,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-22,Dec-25,18,1 billet cobble + 1 hotout due to apron #6 coupling feedback lost during rolling,ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
+2025-12-09,Dec-25,9,Discharging stopped due to kick off 2 not moving in reverse,ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-09,Dec-25,10,Runout table photocell continue sensing high in bundling area,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-10,Dec-25,65,Bundling area extraction trolley overtravel,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-10,Dec-25,14,Stand-4 overtemperature alarm,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-12,Dec-25,55,Stand #6 motor torque over drive limit,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-12,Dec-25,20,shear #2 motor overtemperature,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-16,Dec-25,75,TMB 2.1 drive falut + kocks exit roller table drive fault,,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-17,Dec-25,175,Cooling conveyor hood not positioning,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,25,Cooling bed full due to saw#1 wheel stopper auto-positioning fault,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,84,Cooling bed full due to saw#1 wheel stopper auto-positioning fault,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,30,Cooling bed full due to saw#1 wheel stopper auto-positioning fault,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,48,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,12,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,26,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,8,Cooling bed full due to saw#2 gear box luberication oil flow low,PRESSURE_SWITCH,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,53,Cooling bed full due to saw#2 gear box luberication oil flow low + Saw 2 lifting arm not working,PRESSURE_SWITCH,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,13,Temp raising in furnace,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-22,Dec-25,18,1 billet cobble + 1 hotout due to apron #6 coupling feedback lost during rolling,ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
 2025-12-26,Dec-25,50,"BDM upper chock exit lock feedback Missing 
-",PROXIMITY,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-26,Dec-25,39,Cooling bed full due to MCB breaker tripeed,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
+",PROXIMITY,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-26,Dec-25,39,Cooling bed full due to MCB breaker tripeed,,unresolved,Electrical_Delay_Report_Dec25.xlsx
 2025-12-26,Dec-25,4,"C.B full
-",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-26,Dec-25,13,Sequence break in auto mode,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-26,Dec-25,11,Sequence break in auto mode,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-27,Dec-25,15,Saw 1 exit compactor issue,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-27,Dec-25,40,"Saw 1 exit upper clamp issue, cutting done in Saw 2",PROXIMITY,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-27,Dec-25,36,Saw#1 entry clamp feedback missing,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-27,Dec-25,14,Cooling bed full due to saw #1 exit compactor,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-27,Dec-25,17,Cooling bed full due to photocell #3 malfunctioning,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,18,Saw #1 stopper not lifting/ short bar removal,PROXIMITY,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,15,"BDM exit RT tripped, 1 billet cobble",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,67,"BDM exit RT tripped, 1 billet cobble",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,57,Descaler Pressure issue in bdm,PRESSURE_SWITCH,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,130,Again BDM exit RT fault,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,5,Kick off laser line fixed,LASER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,50,One metal rejected due to BDM Roller Table tripped,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,68,"Saw 1 Vibration fault, Saw 1 in fault (tripping)",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,94,01 billet cobble due to bar tracking fault in kocks,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-28,Dec-25,13,only saw#2 inline,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-29,Dec-25,20,"CCL near full , metal overtravelled from Saw 1 ",PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-29,Dec-25,10,"Strapping machine issue, manual strapping done",PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,10,Cooling bed runout roller table not running,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,32,"BDM RT-1 fault , 1 billet cobble",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,33,saw#2 entry compactor opening command missing/photocell detection issue,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,74,"BDM RT-1 fault , 1 billet cobble",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,10,shear #2 optimization cut tunning,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,16,saw#1 photocell flickering,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,39,saw #2 missed missed cut(electrical changed the wire),PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,21,Strapping machine RT not run in auto,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,10,Saw #2 tripped,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,80,Saw#2 disc detection photocell fault,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-30,Dec-25,12,One billet overtravelled in BDM due to HMD #2 high,HMD,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,30,DSL power cutting in BC way,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,24,Saw2 dia detection issue,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,6,Saw2 dia detection issue,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,9,Vertical chain cycle not taking in bundling,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,11,Vertical chain cycle not taking in bundling,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,38,Bundling run forward without strapping(photo cell issue),PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,39,bundle overtravel without strapping,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,,Alignment issue in Saw #1,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,35,saw#1 de-dusting inspection by danieli team,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,15,"emergency actived from cooling bed, 1 billet auto chopped & 1 billet rejected after rolling in bdm",,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,15,Extraction trolley wrong feedback,ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,51,saw#2 is not working in auto and munully work,PHOTOCELL,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,160,Reverse feedback missing (saw#2 arm),ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,40,Saw#2 trail,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,17,Saw #2 trail,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,15,"Apron coupling 6 position unknown (1 metal chopped ,1 hotout)",ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-2025-12-31,Dec-25,22,Apron coupling 6 position unknown,ENCODER,explicit_sensor,Electrical_Delay_Report_Dec25.xlsx
-,Dec-25,Name,ANSHIKA SRIVASTAVA,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-,Dec-25,Designation,ASSISTANT MANAGER,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-,Dec-25,Date,,,needs_keyword_tag,Electrical_Delay_Report_Dec25.xlsx
-2026-01-01,Jan-26,10,Bar misaligned at extraction trolley ar cb,PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-01,Jan-26,60,Bar misaligned at extraction trolley ar cb,PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-01,Jan-26,12,Saw 1 and saw2 auto sequence breaking,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-01,Jan-26,8,Heat change and cycle gap,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-01,Jan-26,80,Cobble removal +Apron testing (continuity alarm in C.b ),,needs_keyword_tag,JANUARY26.xlsx
-2026-01-01,Jan-26,3,Kick off discharging condition not healty,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-01,Jan-26,3,Kick off discharging condition not healty,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-01,Jan-26,29,Downing proxy open (weighing ),PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-02,Jan-26,14,Saw 2 disc detection photocell fault,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-02,Jan-26,60,RIO 01 A200 network fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-02,Jan-26,75,One metal all shear and one metal rejected due to metal overshoot at cooling bed,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-02,Jan-26,8,Std#2 lubrication fault,PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-02,Jan-26,10,BDM grease line cycle timeout,PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-02,Jan-26,57,"Wrong work mode ,trail fell of flywheel side some wire burnt",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,30,BDM Exit Roller Table tripped,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,7,"Cold shear entry and exit roller tripped , Saw 2 clamp issue",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,16,"BDM RT2 Tripped, one metal rejected",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,42,Billet bend in furnace kick off arm remained up,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,43,One metal hot out due to billet front bend,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,10,Electrical work at kick off machine,LVDT,explicit_sensor,JANUARY26.xlsx
-2026-01-03,Jan-26,196,Electrical work at kick off machine,LVDT,explicit_sensor,JANUARY26.xlsx
-2026-01-03,Jan-26,40,Kick off LVDT issue,LVDT,explicit_sensor,JANUARY26.xlsx
-2026-01-03,Jan-26,16,Again kick off issue,LVDT,explicit_sensor,JANUARY26.xlsx
-2026-01-03,Jan-26,10,Furnace discharging camera not working,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,146,"Metal didn't bite in stand 2, cobble removal & Pinch roll pinching time change",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,15,Saw#1 photocell issue due to dust,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-03,Jan-26,10,Saw#2 not in auto manual cutting(OPEARTION IS MUNUAL),,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,23,Saw#2 not in auto manual cutting (DISC PHOTO DETECTION ),,needs_keyword_tag,JANUARY26.xlsx
-2026-01-03,Jan-26,12,Saw#1 photocell flickering,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-03,Jan-26,30,Saw#1 photocell changed,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-04,Jan-26,26,01 metal cobble in BDM due to delivery oil temp transducer fault,TT,explicit_sensor,JANUARY26.xlsx
-2026-01-04,Jan-26,20,Saw#1 exit roller table not working,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-04,Jan-26,37,Saw#1 exit roller table not working,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-05,Jan-26,12,Shear 2 roller table motor not running,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-05,Jan-26,110,Cooling bed hydraulic communication fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-05,Jan-26,22,Disc detection photocell fault in Saw 1,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-05,Jan-26,36,PLC power supply E401C1-JD01E40R1O02 Aprons area 24 vdc off,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-05,Jan-26,10,Side compactor communication fault in saw #1,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-05,Jan-26,6,Saw#2 position feddback missing,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-05,Jan-26,35,FCE tripped due to CA fan VFD fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-05,Jan-26,5,Saw#1 exit compactor fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-06,Jan-26,18,Saw#1 photocell fault,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-06,Jan-26,13,Saw#1 upper clamp timeout,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-07,Jan-26,8,BDM OD1 sensing before first pass,HMD,explicit_sensor,JANUARY26.xlsx
-2026-01-08,Jan-26,44,Discharging delay due to furnace not ready,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-09,Jan-26,180,Extraction trolley not synchronised in cooling bed,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-09,Jan-26,5,CB full (auto sequence breaking of C & D section ),,needs_keyword_tag,JANUARY26.xlsx
-2026-01-09,Jan-26,35,Dissappearing stopper not getting up down,PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-09,Jan-26,13,Dissappearing stopper not getting up down,PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-10,Jan-26,11,disc detection photocell fault in saw 1,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-10,Jan-26,5,Extraction trolley not synchronised in cooling bed,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-10,Jan-26,7,furnace kick off issue,LVDT,explicit_sensor,JANUARY26.xlsx
-2026-01-10,Jan-26,53,"Pinch Roll abnormal pinching, shear 1 missing front cuts",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-10,Jan-26,18,"One metal rejected due to metal stopped at PR0, didn't bite in Stand 2",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-10,Jan-26,14,Std 7 over temperature,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-10,Jan-26,6,"Pinch Roll abnormal pinching, shear 1 missing front cuts",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-10,Jan-26,11,Photocell detection issue & scale cleaning,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-11,Jan-26,29,sequence break of cut to length area,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-11,Jan-26,240,Kocks system error(taken wrong guide in system ),,needs_keyword_tag,JANUARY26.xlsx
-2026-01-12,Jan-26,13,CB full due to disc measuring fault.,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-12,Jan-26,13,CB full due to disc measuring fault.,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-12,Jan-26,30,CB full due to disc measuring fault.,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-12,Jan-26,17,"0.5 billet dropped due to CCL full alarm, crane extraction hold.",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-12,Jan-26,7,"CB full due to slow cutting saw taking time, synchronize out.",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-12,Jan-26,18,Saw disc dia measuring value photocell fault.,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-12,Jan-26,56,Saw disc dia measuring value photocell fault.,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-12,Jan-26,10,C.B full due to saw #1 problem,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-13,Jan-26,35,Saw 1 disk measuring photocell fault contiued from previous shift,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-13,Jan-26,11,saw2 entry upper clamp lifting/ lowering timeout,PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-13,Jan-26,20,"Crane 7 for inspection, bundling area full",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-13,Jan-26,20,1 metal rejected in BDM (od1 sensing problem),HMD,explicit_sensor,JANUARY26.xlsx
-2026-01-14,Jan-26,26,communication fault in bundling,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-14,Jan-26,10,BDM motor vibration checking,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-14,Jan-26,12,Bar turner did not turn the metal in last pass,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-14,Jan-26,11,Billet overtraveled in bdm,HMD,explicit_sensor,JANUARY26.xlsx
-2026-01-15,Jan-26,8,Gear box oil flow minimum in saw#1(power supply fault),PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-15,Jan-26,10,Gear box oil flow minimum in saw#1(power supply fault),PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-15,Jan-26,12,SAW#1 tripped,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-15,Jan-26,31,Saw #1 exit roller table not working,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-15,Jan-26,21,Saw #1 luberication minimum,PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-15,Jan-26,14,Saw#1 tripped,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-15,Jan-26,12,Saw#1 tripped,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-15,Jan-26,14,Slow cutting due to saw#1 trail failed & tripped again,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-15,Jan-26,10,One billet chopped due to CARP position unknown,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-16,Jan-26,50,Crane No. 5 breakdown from previous shift,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-16,Jan-26,25,"Sequence broke in strapping machine , manually strapping done",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-16,Jan-26,4,Furnace home position not coming,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-16,Jan-26,5,Strapping machine fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-16,Jan-26,5,Extraction trolley sequence break,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-16,Jan-26,21,Extraction trolley sequence break,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-17,Jan-26,24,Electrical worked on shear #1,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-17,Jan-26,6,Shear#1positioning,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-18,Jan-26,29,CB boggie synchronization not ok,ENCODER,explicit_sensor,JANUARY26.xlsx
-2026-01-18,Jan-26,36,BDM sequence brake in 2nd pass,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-18,Jan-26,6,C.B full due to photocell 6 & 10 flickering,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-18,Jan-26,10,Std#7 overtemp,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-18,Jan-26,12,DC link fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-20,Jan-26,148,"due to sh#1 head cut missing,splitted head hit at std#6 guide",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-20,Jan-26,7,sh#1 head cut missing,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-21,Jan-26,180,Cold shear compressed air pressure low,PRESSURE_SWITCH,explicit_sensor,JANUARY26.xlsx
-2026-01-22,Jan-26,31,"Saw#1 taken in line , saw#1 entry RT not working in auto",,needs_keyword_tag,JANUARY26.xlsx
-2026-01-22,Jan-26,9,saw#1 entry RT not working in auto,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-22,Jan-26,7,saw#1 entry RT not working in auto,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-22,Jan-26,17,saw#1 entry RT not working in auto,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-22,Jan-26,9,BDM EXIT RT not working,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-23,Jan-26,12,Photocell cleaning in CTL area,PHOTOCELL,explicit_sensor,JANUARY26.xlsx
-2026-01-24,Jan-26,13,OD1 cleaning in BDM,HMD,explicit_sensor,JANUARY26.xlsx
-2026-01-26,Jan-26,5,HMD cleaning in BDM,HMD,explicit_sensor,JANUARY26.xlsx
-2026-01-26,Jan-26,20,One billet rejected in BDM due to pinch roll 1 motor fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-26,Jan-26,31,One billet rejected in BDM due to pinch roll 1 motor fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-26,Jan-26,9,Strapping machin in fault (manual strapping done ),,needs_keyword_tag,JANUARY26.xlsx
-2026-01-26,Jan-26,43,Saw#2 upper clamp feedback missing,PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-26,Jan-26,11,Saw#1 entry roller table fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-26,Jan-26,10,Saw#2 exit upper clamp lowering feedback missing,PROXIMITY,explicit_sensor,JANUARY26.xlsx
-2026-01-28,Jan-26,144,Cobble removal & mill readiness,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-28,Jan-26,9,CVR inspection,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-28,Jan-26,7,CVR inspection,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-28,Jan-26,11,Furnace kick off issue,LVDT,explicit_sensor,JANUARY26.xlsx
-2026-01-28,Jan-26,34,1 billet rejected at bdm & 1 hotout due to wb#3 trolley position out during rolling,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-29,Jan-26,7,HMD 1 & HMD #2 cleaning,HMD,explicit_sensor,JANUARY26.xlsx
-2026-01-29,Jan-26,35,18 cycle gap in furnace,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-29,Jan-26,129,CVR diverter cummulative fault,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-31,Jan-26,42,,,needs_keyword_tag,JANUARY26.xlsx
-2026-01-31,Jan-26,24,,,needs_keyword_tag,JANUARY26.xlsx
-2026-03-01,Mar-26,15,Saw-1 disc diameter detection fault,PHOTOCELL,explicit_sensor,March_2026.xlsx
-2026-03-02,Mar-26,12,BDM RT-1 cleaning,,needs_keyword_tag,March_2026.xlsx
-2026-03-03,Mar-26,69,"BDM metal over-travel, 1 cobble",HMD,explicit_sensor,March_2026.xlsx
-2026-03-03,Mar-26,14,BDM exit RT-1 & RT-2 tripped,,needs_keyword_tag,March_2026.xlsx
-2026-03-03,Mar-26,35,"BDM RT-1 & RT-2 trip, billet cobble",,needs_keyword_tag,March_2026.xlsx
-2026-03-03,Mar-26,75,Charging crane tripped â 30 cycle gap,,needs_keyword_tag,March_2026.xlsx
-2026-03-03,Mar-26,26,"BDM metal overtravel, rejected",HMD,explicit_sensor,March_2026.xlsx
-2026-03-06,Mar-26,33,Billet over-travelled in BDM,HMD,explicit_sensor,March_2026.xlsx
-2026-03-06,Mar-26,158,BDM exit guide encoder fault,ENCODER,explicit_sensor,March_2026.xlsx
-2026-03-06,Mar-26,48,FFB snap shear not working,PROXIMITY,explicit_sensor,March_2026.xlsx
-2026-03-07,Mar-26,6,Furnace CRT tripped,,needs_keyword_tag,March_2026.xlsx
-2026-03-07,Mar-26,26,Kocks drive fault â hot out,,needs_keyword_tag,March_2026.xlsx
-2026-03-08,Mar-26,10,CVR flap not open feedback active,ENCODER,explicit_sensor,March_2026.xlsx
-2026-03-09,Mar-26,13,Compactor air pressure low,PRESSURE_SWITCH,explicit_sensor,March_2026.xlsx
-2026-03-09,Mar-26,19,High profile not active â mill,,needs_keyword_tag,March_2026.xlsx
-2026-03-09,Mar-26,29,"OD-1 flickering, billet rejected",HMD,explicit_sensor,March_2026.xlsx
-2026-03-12,Mar-26,29,"OD-1 didnât sense, billet rejected",HMD,explicit_sensor,March_2026.xlsx
-2026-03-15,Mar-26,27,Cooling bed photocell 9 & 10 flickering,PHOTOCELL,explicit_sensor,March_2026.xlsx
-2026-03-19,Mar-26,151,Shear-4 encoder coupling loose (1.5 cobble),ENCODER,explicit_sensor,March_2026.xlsx
-2026-03-20,Mar-26,15,Electrical LCS change â Kocks stop,,needs_keyword_tag,March_2026.xlsx
-2026-03-21,Mar-26,8,KOCKS tripped,,needs_keyword_tag,March_2026.xlsx
-2026-03-22,Mar-26,5,Stand-4 motor over-temperature,,needs_keyword_tag,March_2026.xlsx
-2026-03-24,Mar-26,15,BDM DC link (DEA-01) fault,,needs_keyword_tag,March_2026.xlsx
-2026-03-25,Mar-26,20,BDM DRA-01 fault,,needs_keyword_tag,March_2026.xlsx
-2026-03-26,Mar-26,10,Std-2 motor over-temperature alarm,,needs_keyword_tag,March_2026.xlsx
-2026-03-27,Mar-26,10,Saw-2 exit clamp feedback missing,PROXIMITY,explicit_sensor,March_2026.xlsx
-2026-03-28,Mar-26,5,OD-1 sensing issue â slow rolling,HMD,explicit_sensor,March_2026.xlsx
-2026-03-28,Mar-26,150,BDM exit bar-turner transducer fault,LVDT,explicit_sensor,March_2026.xlsx
-2026-03-29,Mar-26,17,Saw-2 upper clamp feedback missing,PROXIMITY,explicit_sensor,March_2026.xlsx
-2026-03-29,Mar-26,5,Std-2 motor over-temperature,,needs_keyword_tag,March_2026.xlsx
-2026-03-30,Mar-26,41,BDM exit bar-turner didnât rotate,ENCODER,explicit_sensor,March_2026.xlsx
-2026-03-31,Mar-26,7,Electrical work at compactor â pallet area full,ENCODER,explicit_sensor,March_2026.xlsx
-2026-04-01,Apr-26,5,Kick off malfunctioning,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,60,Tmb gear positioning issue / section change,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,15,"FFB, TMB water pressure not ok",PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,52,Tmb drives fault,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,10,1 billet skew manual discharging,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,5,2 cycle gap in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,5,2 cycle gap in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,45,Cobble due to waterbox 3 position out,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,105,Delay continues from previous shift(Cobble due to waterbox 3 position out),LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-02,Apr-26,15,Pellet area full due to compatcor unit 1 in fault,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-03-04,Apr-26,66,"collecting arm did not open,one metal auto chopped,one rejected in bdm",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-03-04,Apr-26,42,"collecting arm did not open,one metal auto chopped,one rejected in bdm",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-03-04,Apr-26,6,od#3 high,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-03-04,Apr-26,21,one billet rejected in mill due to od#1 flickering,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-03-04,Apr-26,20,1 pump taken in line from utility as pressure decreasing,PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-03-04,Apr-26,4,HMD 24 not reliable,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-04,Apr-26,106,pallet area turning point not turning,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-04,Apr-26,10,Kick off feedback missing,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-04,Apr-26,50,Kick off arm #1 LVDT broken,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-04,Apr-26,3,1 billet hotout due to TMB 1.1 overtemp alarm,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-04,Apr-26,230,Coil got stuck in reform tub + reform tub area auto sequence breaking frequently,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-05,Apr-26,100,"Kick off issue , not moving forward, electrical work at Kick off ",LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-05,Apr-26,9,Pallet area sensor cleaning by elec,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-05,Apr-26,8,BDM Unjamming pressure low and materials overtravel,PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-05,Apr-26,22,One metals cooble in due to BDM HMD EV1 not senseing in 2nd pass,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-06,Apr-26,20,"1 metal cobble in BDM , 3rd pass exit guide operator side fault ",ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-07,Apr-26,35,Saw 2 forward/backward feedback missing,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-07,Apr-26,8,1 billet rejected in BDM due to drive side exit side guide maximun opening,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-07,Apr-26,20,BDM HMD checking,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-07,Apr-26,24,2 metal hot out due to stand 6 water delivery valve failed to open,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-07,Apr-26,5,Bundling photocell cleaning,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,35,Section A & B roller table not working,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,43,BDM exit RT tripped,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,8,04 cycle gap in fce due to CRT tripped,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,18,Sh#3 bucket door feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,9,One billet rejected in BDM due to BDM exit RT tripped,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,17,Saw#2 open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,17,Saw#2 open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,11,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,7,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,5,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,7,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,9,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-08-04,Apr-26,20,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-09,Apr-26,10,Kick off not lifting billet properly,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-09,Apr-26,25,Saw#2 forward reverse feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-09,Apr-26,45,Saw#2 entry side clamp feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-09,Apr-26,15,Saw 1 blade change and BDM HMD Cleaning,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,3,saw#2 clamp feedback issue,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,4,saw#2 clamp feedback issue,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,25,Elec team working in bdm(HMD elevation correction ),HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,12,05 cg in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,14,Saw#2 auto sequence break,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,15,BDM HMD cleaning (checklist activities done),HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-10,Apr-26,93,"Saw 1 lower clamp feedback missing, Saw 2 photocell high ",PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-11,Apr-26,15,saw#1 exit upper clamp feedback missing,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-11,Apr-26,56,"bdm bar turner did not turn in 3rd pass(bar turner exit side maximum ccw position fault,one billet rejected ",ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-11,Apr-26,5,Std. 7 overtemperature alarm,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-11,Apr-26,26,Electrical work at BDM Exit bar Turner,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-11,Apr-26,13,Std 7 overtemperature alarm,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-12,Apr-26,39,"exit side guide in fault ,one billet rejected + hmd ,camera cleaning",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-13,Apr-26,14,Side guide fault in BDM,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-13,Apr-26,128,Takeover fault in bamicon system (communication fault),,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-13,Apr-26,15,Saw#1 entry roller table not working,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-13,Apr-26,10,Photocell alignment out,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-13,Apr-26,10,Photo cell cleaning,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-14,Apr-26,77,38 cycle gap in Fce due to mechanical work in crane,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-14,Apr-26,7,Furnace cycle gap,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-14,Apr-26,10,Furnace cycle gap,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-14,Apr-26,10,BDM exit roller trip,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-15,Apr-26,12,BDM transfer trolley chain tightening + Scale cleaning + HMD cleaning,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-15,Apr-26,10,1 billet cobble at Bdm due to ev1 high,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-15,Apr-26,4,Bdm roller table tripped,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-16,Apr-26,50,1 billet missroll in BDM due to overtravelled in 2nd pass,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-16,Apr-26,5,BDM exit roller trip,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-16,Apr-26,5,Descaler pressure dropped,PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-16,Apr-26,28,Kocks guide #3 Motion timeout alarm (communication fault ),,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-16,Apr-26,15,"BDM HMD Cleaning, check sheet done",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-16,Apr-26,16,Shear 4 bucket change & bdm hmd cleaning,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-18,Apr-26,20,Std#6 water flow minimum,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-18,Apr-26,25,Disc saw #2 photocell fault,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-18,Apr-26,12,H1 pressure dropped,PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-18,Apr-26,20,Bdm hmd OD1 not sensing,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-18,Apr-26,20,Stand 13 roll cooling water minimum,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-18,Apr-26,40,"Stand 13 roll cooling water minimum, flow switch changed",FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,17,Std#8 water flow minimum,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,13,1 billet rejected in BDM + 1 hotout due to std#13 gear box lubrication flow low,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,38,"Conveyor 403 sensor fault, one metal all shear'ed ",ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,23,Reform tub proxy changed,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,12,Conveyor 403 issue,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,53,Conveyor 403 issue,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-19,Apr-26,13,Proxy change continued from previous shift,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-20,Apr-26,15,Electrical work at BDM HMD Air line,HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-21,Apr-26,14,tmb#2.2 motor overtemperature,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-22,Apr-26,12,Kick off feedback missing,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-22,Apr-26,5,Stand 4 overtemperature alarm,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-22,Apr-26,97,1 metal rejected in BDM due to lifting device is not working in pallet area,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-22,Apr-26,19,9 cycle gap in fce due billet deposite device in fault,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-23,Apr-26,17,"One billet rejected in BDM , metal overtravelled in 1st pass",ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-23,Apr-26,13,One metal hot out and one metal rejected due to billet overtravelled after second pass in BDM,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-23,Apr-26,10,Bdm operator side roll balancing pressure low,PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,7,Std 8 cooling water low,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,6,2 cycle gap in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,7,5 cycle gap in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,5,5 cycle gap in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,22,"8 cycle gap in Fce , Heat change ",PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,10,"8 cycle gap in Fce , Heat change ",PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,4,2 cycle gap in fce,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-24,Apr-26,115,Error in bamicon server and AIC communication fault,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-25,Apr-26,41,LH PR oil bushing pressure minimum,PRESSURE_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-25,Apr-26,10,TMB 2.2 & Stand 7 overtemperature,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-26,Apr-26,60,Shear 4 compressed air low,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-26,Apr-26,10,"Strapping mc1 not operating in auto/manual, strapping mc2 bundle not stopping in home position",PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-,Apr-26,7,RT#2 tripped and saw#1 lower clamp timeout,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-,Apr-26,10,RT#2 tripped and saw#1 lower clamp timeout,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-,Apr-26,13,06 cg in fce due to billet deposit device proxy adj,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-27,Apr-26,3,Photocell #1 and #2 didn't sense in cooling bed,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-27,Apr-26,21,One metal rejected and one hot out due to metal didn't turn after second pass,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-27,Apr-26,53,Metal all shear'ed in mill due to bar overtravelled in cooling bed,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,5,BDM RT3 tripped 01 ho,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,17,Sample checking + std#4 water flow minimum,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,71,C.B full due to clamp feedback issue os saw#2,PROXIMITY,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,10,Saw#2 exit RT tripped,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,5,Stand 4 water flow minimum,FLOW_SWITCH,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,9,"Metal stopped in Descalar, rolled manually ",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-28,Apr-26,8,"OD#4, OD#6 flickering ",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-29,Apr-26,6,01 metal hot out due to RT3 tripped in bdm,ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-29,Apr-26,6,Saw-2 disc dia detection,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-29,Apr-26,27,Saw 2 disc dia detection fault,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-29,Apr-26,12,Furnace exit RT tripped,LVDT,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-29,Apr-26,6,"Metal stopped in BDM RT1, RT1 warning (rolled manually) ",HMD,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,5,Saw#2 disk detection fault,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,20,Saw#2 disk detection fault,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,10,All drive tripped,,needs_keyword_tag,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,80,10 cycle gap in fce + Walking beam not working in auto or manual mode + Mechanical worked at saw1 wheel stopper,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,6,Manual charging of billet (Issue in kick-in),ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,5,Manual charging of billet (Issue in kick-in),ENCODER,explicit_sensor,April_Delays_marked_.xlsx
-2026-04-30,Apr-26,21,6 cycle gap in fce + Walking beam not working in auto,PHOTOCELL,explicit_sensor,April_Delays_marked_.xlsx
-2026-05-01,May-26,16.76666667,Stand 2 and 4 water flow min,FLOW_SWITCH,explicit_sensor,MAY2026.xlsx
-2026-05-01,May-26,6.966666667,Discharging photo cell high,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-01,May-26,8.066666667,Knives position error,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-01,May-26,6.9,BDM Exit roller table fault,,needs_keyword_tag,MAY2026.xlsx
-2026-05-01,May-26,3.55,BDM Entry RT3 Tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-01,May-26,2.633333333,BDM Entry RT3 Tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-02,May-26,19.45,one billet rejected in bdm due to bdm exit roller table 2 tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-02,May-26,5.25,hmd cleaning in bdm,HMD,explicit_sensor,MAY2026.xlsx
-2026-05-03,May-26,10.93333333,hmd cleaning due to cooling bed continuity alarm,HMD,explicit_sensor,MAY2026.xlsx
-2026-05-03,May-26,15.73333333,1 billet hotout (Billet didn't bite in 1st pass,,needs_keyword_tag,MAY2026.xlsx
-2026-05-04,May-26,73.3,"Apron roller table missed cuts, metal overtravelled",,needs_keyword_tag,MAY2026.xlsx
-2026-05-05,May-26,6.65,RT1EV tripped 01 billet rejected,,needs_keyword_tag,MAY2026.xlsx
-2026-05-05,May-26,8.266666667,hmd 31 cleaning,HMD,explicit_sensor,MAY2026.xlsx
-2026-05-05,May-26,10.95,Auto sequence break due to PH8 flickering,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-05,May-26,16.26666667,Layer not moving in auto from saw 1 entry,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-05,May-26,14.98333333,Layer not moving in auto from saw 1 entry,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-05,May-26,21.18333333,bar misalign at saw#1 and saw#2,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-06,May-26,15.05,ph#3 flickering in cooling bed,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-06,May-26,11.23333333,Sequence breaking in cooling bed,,needs_keyword_tag,MAY2026.xlsx
-2026-05-06,May-26,3.983333333,sequence break at ctl,,needs_keyword_tag,MAY2026.xlsx
-2026-05-06,May-26,5.816666667,sequence break at ctl,,needs_keyword_tag,MAY2026.xlsx
-2026-05-07,May-26,13.43333333,bar overtavel in ctl roller table,,needs_keyword_tag,MAY2026.xlsx
-2026-05-07,May-26,28.53333333,Saw 1 exit upper clamp feedback missing,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-07,May-26,2.8,Exit RT fault,,needs_keyword_tag,MAY2026.xlsx
-2026-05-07,May-26,4.266666667,side  guide entry operator side in fault,ENCODER,explicit_sensor,MAY2026.xlsx
-2026-05-07,May-26,3.716666667,"ev1 flickerd,manually rolled",HMD,explicit_sensor,MAY2026.xlsx
-2026-05-09,May-26,83.83333333,BDM Transfer trolley alignment out,ENCODER,explicit_sensor,MAY2026.xlsx
-2026-05-10,May-26,51.4,"One metal hot out due to RT1 Tripped, Frontend stuck in reform tub",,needs_keyword_tag,MAY2026.xlsx
-2026-05-11,May-26,45.9,RT1 ev tripped and rejection bench clearing,,needs_keyword_tag,MAY2026.xlsx
-2026-05-11,May-26,5.05,Drive communication fault,,needs_keyword_tag,MAY2026.xlsx
-2026-05-11,May-26,15.08333333,Drive communication fault,,needs_keyword_tag,MAY2026.xlsx
-2026-05-11,May-26,39.66666667,Drive communication fault (2 billet chopped in mill and 1 hotout),,needs_keyword_tag,MAY2026.xlsx
-2026-05-12,May-26,46.35,One metal rejected due to abnormal cut in shear 1,ENCODER,explicit_sensor,MAY2026.xlsx
-2026-05-12,May-26,7,STD 10 Overtemperature alarm,,needs_keyword_tag,MAY2026.xlsx
-2026-05-12,May-26,5.816666667,BDM rt1 tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-13,May-26,2.416666667,bdm entry roller table tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-13,May-26,2.55,bdm entry rt tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-17,May-26,68.8,"Metal rejected in BDM , Delay continued from previous shift",,needs_keyword_tag,MAY2026.xlsx
-2026-05-17,May-26,28.66666667,Saw 1 upper clamp feedback missing,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-17,May-26,13.63333333,Bundling weighing photocell issue,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-17,May-26,57.93333333,Saw 2 clamp feedback missing,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-17,May-26,1.683333333,disk detection fault,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-18,May-26,5.7,wrong length calculation by the system for 6m billet  (1 billet auto chopped in shear 4 ),PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-18,May-26,5.733333333,slow rolling of 6m billet,,needs_keyword_tag,MAY2026.xlsx
-2026-05-18,May-26,4.8,wrong length calculation by the system for 6m billet,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-19,May-26,8.333333333,BDM RT tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-19,May-26,45.13333333,Cutting cycle not taking in auto and manual,,needs_keyword_tag,MAY2026.xlsx
-2026-05-19,May-26,33,extractioin trolly#3 striker out,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-20,May-26,5.483333333,extraction trolly#1 time out,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-20,May-26,27.78333333,Bundling area full(Bundle moved forward without strapping),,needs_keyword_tag,MAY2026.xlsx
-2026-05-21,May-26,163,"1 )section change to 75 from 63 mm,sh#4 pinch roll change by mechanical,54'  2)bdm unjamming pressure resetting issue ,electrical+mechanical, 110'",PRESSURE_SWITCH,explicit_sensor,MAY2026.xlsx
-2026-05-22,May-26,101.6833333,"metal auto chopped in sh#3 ,head cut missed in sh#2, bend head stuck in exit roller table (operation and electric)",,needs_keyword_tag,MAY2026.xlsx
-2026-05-22,May-26,2.35,bdm exit roller table tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-22,May-26,20.06666667,kick off arm#3 mc feedback missing,LVDT,explicit_sensor,MAY2026.xlsx
-2026-05-23,May-26,2.15,std#7 overtemperature alarm,,needs_keyword_tag,MAY2026.xlsx
-2026-05-23,May-26,19.15,sequence break in ctl,,needs_keyword_tag,MAY2026.xlsx
-2026-05-23,May-26,11.76666667,disk saw 2 disk detection fault,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-23,May-26,25.48333333,rollertable tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-23,May-26,11.5,bdm entry bar turner feedback missing,LVDT,explicit_sensor,MAY2026.xlsx
-2026-05-23,May-26,27.11666667,"1) RT lineup section#2,6,7 motor tripped 14'   2) bdm + mill inspection 13'",,needs_keyword_tag,MAY2026.xlsx
-2026-05-24,May-26,2.183333333,bdm exit rt tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-24,May-26,5.95,stand 7 motor overtemp,,needs_keyword_tag,MAY2026.xlsx
-2026-05-24,May-26,6.933333333,4 cycle gap in fce,,needs_keyword_tag,MAY2026.xlsx
-2026-05-24,May-26,31.86666667,"Problem in disc saw 2 changing, Crane not available(CD bay DSL power cut)",,needs_keyword_tag,MAY2026.xlsx
-2026-05-24,May-26,38.01666667,"Problem in disc saw 2 changing, Crane not available(CD bay DSL power cut)",,needs_keyword_tag,MAY2026.xlsx
-2026-05-24,May-26,27.68333333,one billet ho due to bar turner did not turn in ist pass (e&m),ENCODER,explicit_sensor,MAY2026.xlsx
-2026-05-25,May-26,257.1333333,"rolling stopped due to empty furnace,CRANE#6 breakdown",,needs_keyword_tag,MAY2026.xlsx
-2026-05-25,May-26,74.11666667,"rolling stopped due to empty furnace,CRANE#6 breakdown",,needs_keyword_tag,MAY2026.xlsx
-2026-05-25,May-26,3.183333333,Motor over temp,,needs_keyword_tag,MAY2026.xlsx
-2026-05-25,May-26,14.25,Stand 2 blower supporting bolt replaced,,needs_keyword_tag,MAY2026.xlsx
-2026-05-26,May-26,4.75,2 cycle gap (Billet deposit device position out),PROXIMITY,explicit_sensor,MAY2026.xlsx
+",,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-26,Dec-25,13,Sequence break in auto mode,,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-26,Dec-25,11,Sequence break in auto mode,,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-27,Dec-25,15,Saw 1 exit compactor issue,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-27,Dec-25,40,"Saw 1 exit upper clamp issue, cutting done in Saw 2",PROXIMITY,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-27,Dec-25,36,Saw#1 entry clamp feedback missing,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-27,Dec-25,14,Cooling bed full due to saw #1 exit compactor,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-27,Dec-25,17,Cooling bed full due to photocell #3 malfunctioning,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,18,Saw #1 stopper not lifting/ short bar removal,PROXIMITY,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,15,"BDM exit RT tripped, 1 billet cobble",,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,67,"BDM exit RT tripped, 1 billet cobble",,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,57,Descaler Pressure issue in bdm,PRESSURE_SWITCH,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,130,Again BDM exit RT fault,,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,5,Kick off laser line fixed,LASER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,50,One metal rejected due to BDM Roller Table tripped,,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,68,"Saw 1 Vibration fault, Saw 1 in fault (tripping)",,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,94,01 billet cobble due to bar tracking fault in kocks,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-28,Dec-25,13,only saw#2 inline,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-29,Dec-25,20,"CCL near full , metal overtravelled from Saw 1 ",PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-29,Dec-25,10,"Strapping machine issue, manual strapping done",PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,10,Cooling bed runout roller table not running,,reclassified_non_device,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,32,"BDM RT-1 fault , 1 billet cobble",,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,33,saw#2 entry compactor opening command missing/photocell detection issue,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,74,"BDM RT-1 fault , 1 billet cobble",,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,10,shear #2 optimization cut tunning,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,16,saw#1 photocell flickering,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,39,saw #2 missed missed cut(electrical changed the wire),PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,21,Strapping machine RT not run in auto,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,10,Saw #2 tripped,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,80,Saw#2 disc detection photocell fault,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-30,Dec-25,12,One billet overtravelled in BDM due to HMD #2 high,HMD,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,30,DSL power cutting in BC way,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,24,Saw2 dia detection issue,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,6,Saw2 dia detection issue,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,9,Vertical chain cycle not taking in bundling,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,11,Vertical chain cycle not taking in bundling,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,38,Bundling run forward without strapping(photo cell issue),PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,39,bundle overtravel without strapping,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,,Alignment issue in Saw #1,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,35,saw#1 de-dusting inspection by danieli team,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,15,"emergency actived from cooling bed, 1 billet auto chopped & 1 billet rejected after rolling in bdm",,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,15,Extraction trolley wrong feedback,ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,51,saw#2 is not working in auto and munully work,PHOTOCELL,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,160,Reverse feedback missing (saw#2 arm),ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,40,Saw#2 trail,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,17,Saw #2 trail,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,15,"Apron coupling 6 position unknown (1 metal chopped ,1 hotout)",ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+2025-12-31,Dec-25,22,Apron coupling 6 position unknown,ENCODER,explicit_sensor_column,Electrical_Delay_Report_Dec25.xlsx
+,Dec-25,Name,ANSHIKA SRIVASTAVA,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+,Dec-25,Designation,ASSISTANT MANAGER,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+,Dec-25,Date,,,unresolved,Electrical_Delay_Report_Dec25.xlsx
+2026-01-01,Jan-26,10,Bar misaligned at extraction trolley ar cb,PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-01,Jan-26,60,Bar misaligned at extraction trolley ar cb,PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-01,Jan-26,12,Saw 1 and saw2 auto sequence breaking,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-01,Jan-26,8,Heat change and cycle gap,,unresolved,JANUARY26.xlsx
+2026-01-01,Jan-26,80,Cobble removal +Apron testing (continuity alarm in C.b ),,unresolved,JANUARY26.xlsx
+2026-01-01,Jan-26,3,Kick off discharging condition not healty,,unresolved,JANUARY26.xlsx
+2026-01-01,Jan-26,3,Kick off discharging condition not healty,,unresolved,JANUARY26.xlsx
+2026-01-01,Jan-26,29,Downing proxy open (weighing ),PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-02,Jan-26,14,Saw 2 disc detection photocell fault,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-02,Jan-26,60,RIO 01 A200 network fault,,unresolved,JANUARY26.xlsx
+2026-01-02,Jan-26,75,One metal all shear and one metal rejected due to metal overshoot at cooling bed,,unresolved,JANUARY26.xlsx
+2026-01-02,Jan-26,8,Std#2 lubrication fault,PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-02,Jan-26,10,BDM grease line cycle timeout,PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-02,Jan-26,57,"Wrong work mode ,trail fell of flywheel side some wire burnt",,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,30,BDM Exit Roller Table tripped,,reclassified_non_device,JANUARY26.xlsx
+2026-01-03,Jan-26,7,"Cold shear entry and exit roller tripped , Saw 2 clamp issue",,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,16,"BDM RT2 Tripped, one metal rejected",,reclassified_non_device,JANUARY26.xlsx
+2026-01-03,Jan-26,42,Billet bend in furnace kick off arm remained up,,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,43,One metal hot out due to billet front bend,,reclassified_non_device,JANUARY26.xlsx
+2026-01-03,Jan-26,10,Electrical work at kick off machine,LVDT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-03,Jan-26,196,Electrical work at kick off machine,LVDT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-03,Jan-26,40,Kick off LVDT issue,LVDT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-03,Jan-26,16,Again kick off issue,LVDT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-03,Jan-26,10,Furnace discharging camera not working,,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,146,"Metal didn't bite in stand 2, cobble removal & Pinch roll pinching time change",,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,15,Saw#1 photocell issue due to dust,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-03,Jan-26,10,Saw#2 not in auto manual cutting(OPEARTION IS MUNUAL),,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,23,Saw#2 not in auto manual cutting (DISC PHOTO DETECTION ),,unresolved,JANUARY26.xlsx
+2026-01-03,Jan-26,12,Saw#1 photocell flickering,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-03,Jan-26,30,Saw#1 photocell changed,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-04,Jan-26,26,01 metal cobble in BDM due to delivery oil temp transducer fault,TT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-04,Jan-26,20,Saw#1 exit roller table not working,,reclassified_non_device,JANUARY26.xlsx
+2026-01-04,Jan-26,37,Saw#1 exit roller table not working,,reclassified_non_device,JANUARY26.xlsx
+2026-01-05,Jan-26,12,Shear 2 roller table motor not running,,reclassified_non_device,JANUARY26.xlsx
+2026-01-05,Jan-26,110,Cooling bed hydraulic communication fault,,unresolved,JANUARY26.xlsx
+2026-01-05,Jan-26,22,Disc detection photocell fault in Saw 1,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-05,Jan-26,36,PLC power supply E401C1-JD01E40R1O02 Aprons area 24 vdc off,,unresolved,JANUARY26.xlsx
+2026-01-05,Jan-26,10,Side compactor communication fault in saw #1,,unresolved,JANUARY26.xlsx
+2026-01-05,Jan-26,6,Saw#2 position feddback missing,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-05,Jan-26,35,FCE tripped due to CA fan VFD fault,,unresolved,JANUARY26.xlsx
+2026-01-05,Jan-26,5,Saw#1 exit compactor fault,,unresolved,JANUARY26.xlsx
+2026-01-06,Jan-26,18,Saw#1 photocell fault,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-06,Jan-26,13,Saw#1 upper clamp timeout,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-07,Jan-26,8,BDM OD1 sensing before first pass,HMD,explicit_sensor_column,JANUARY26.xlsx
+2026-01-08,Jan-26,44,Discharging delay due to furnace not ready,,unresolved,JANUARY26.xlsx
+2026-01-09,Jan-26,180,Extraction trolley not synchronised in cooling bed,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-09,Jan-26,5,CB full (auto sequence breaking of C & D section ),,reclassified_non_device,JANUARY26.xlsx
+2026-01-09,Jan-26,35,Dissappearing stopper not getting up down,PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-09,Jan-26,13,Dissappearing stopper not getting up down,PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-10,Jan-26,11,disc detection photocell fault in saw 1,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-10,Jan-26,5,Extraction trolley not synchronised in cooling bed,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-10,Jan-26,7,furnace kick off issue,LVDT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-10,Jan-26,53,"Pinch Roll abnormal pinching, shear 1 missing front cuts",,unresolved,JANUARY26.xlsx
+2026-01-10,Jan-26,18,"One metal rejected due to metal stopped at PR0, didn't bite in Stand 2",,unresolved,JANUARY26.xlsx
+2026-01-10,Jan-26,14,Std 7 over temperature,,unresolved,JANUARY26.xlsx
+2026-01-10,Jan-26,6,"Pinch Roll abnormal pinching, shear 1 missing front cuts",,unresolved,JANUARY26.xlsx
+2026-01-10,Jan-26,11,Photocell detection issue & scale cleaning,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-11,Jan-26,29,sequence break of cut to length area,,reclassified_non_device,JANUARY26.xlsx
+2026-01-11,Jan-26,240,Kocks system error(taken wrong guide in system ),,unresolved,JANUARY26.xlsx
+2026-01-12,Jan-26,13,CB full due to disc measuring fault.,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-12,Jan-26,13,CB full due to disc measuring fault.,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-12,Jan-26,30,CB full due to disc measuring fault.,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-12,Jan-26,17,"0.5 billet dropped due to CCL full alarm, crane extraction hold.",,unresolved,JANUARY26.xlsx
+2026-01-12,Jan-26,7,"CB full due to slow cutting saw taking time, synchronize out.",,unresolved,JANUARY26.xlsx
+2026-01-12,Jan-26,18,Saw disc dia measuring value photocell fault.,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-12,Jan-26,56,Saw disc dia measuring value photocell fault.,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-12,Jan-26,10,C.B full due to saw #1 problem,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-13,Jan-26,35,Saw 1 disk measuring photocell fault contiued from previous shift,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-13,Jan-26,11,saw2 entry upper clamp lifting/ lowering timeout,PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-13,Jan-26,20,"Crane 7 for inspection, bundling area full",,unresolved,JANUARY26.xlsx
+2026-01-13,Jan-26,20,1 metal rejected in BDM (od1 sensing problem),HMD,explicit_sensor_column,JANUARY26.xlsx
+2026-01-14,Jan-26,26,communication fault in bundling,,unresolved,JANUARY26.xlsx
+2026-01-14,Jan-26,10,BDM motor vibration checking,,unresolved,JANUARY26.xlsx
+2026-01-14,Jan-26,12,Bar turner did not turn the metal in last pass,BAR_TURNER,keyword:bar turner,JANUARY26.xlsx
+2026-01-14,Jan-26,11,Billet overtraveled in bdm,HMD,explicit_sensor_column,JANUARY26.xlsx
+2026-01-15,Jan-26,8,Gear box oil flow minimum in saw#1(power supply fault),PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-15,Jan-26,10,Gear box oil flow minimum in saw#1(power supply fault),PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-15,Jan-26,12,SAW#1 tripped,,unresolved,JANUARY26.xlsx
+2026-01-15,Jan-26,31,Saw #1 exit roller table not working,,reclassified_non_device,JANUARY26.xlsx
+2026-01-15,Jan-26,21,Saw #1 luberication minimum,PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-15,Jan-26,14,Saw#1 tripped,,unresolved,JANUARY26.xlsx
+2026-01-15,Jan-26,12,Saw#1 tripped,,unresolved,JANUARY26.xlsx
+2026-01-15,Jan-26,14,Slow cutting due to saw#1 trail failed & tripped again,,unresolved,JANUARY26.xlsx
+2026-01-15,Jan-26,10,One billet chopped due to CARP position unknown,,unresolved,JANUARY26.xlsx
+2026-01-16,Jan-26,50,Crane No. 5 breakdown from previous shift,,unresolved,JANUARY26.xlsx
+2026-01-16,Jan-26,25,"Sequence broke in strapping machine , manually strapping done",,unresolved,JANUARY26.xlsx
+2026-01-16,Jan-26,4,Furnace home position not coming,,unresolved,JANUARY26.xlsx
+2026-01-16,Jan-26,5,Strapping machine fault,,unresolved,JANUARY26.xlsx
+2026-01-16,Jan-26,5,Extraction trolley sequence break,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-16,Jan-26,21,Extraction trolley sequence break,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-17,Jan-26,24,Electrical worked on shear #1,,unresolved,JANUARY26.xlsx
+2026-01-17,Jan-26,6,Shear#1positioning,,unresolved,JANUARY26.xlsx
+2026-01-18,Jan-26,29,CB boggie synchronization not ok,ENCODER,explicit_sensor_column,JANUARY26.xlsx
+2026-01-18,Jan-26,36,BDM sequence brake in 2nd pass,,unresolved,JANUARY26.xlsx
+2026-01-18,Jan-26,6,C.B full due to photocell 6 & 10 flickering,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-18,Jan-26,10,Std#7 overtemp,,unresolved,JANUARY26.xlsx
+2026-01-18,Jan-26,12,DC link fault,,unresolved,JANUARY26.xlsx
+2026-01-20,Jan-26,148,"due to sh#1 head cut missing,splitted head hit at std#6 guide",,unresolved,JANUARY26.xlsx
+2026-01-20,Jan-26,7,sh#1 head cut missing,,unresolved,JANUARY26.xlsx
+2026-01-21,Jan-26,180,Cold shear compressed air pressure low,PRESSURE_SWITCH,explicit_sensor_column,JANUARY26.xlsx
+2026-01-22,Jan-26,31,"Saw#1 taken in line , saw#1 entry RT not working in auto",,reclassified_non_device,JANUARY26.xlsx
+2026-01-22,Jan-26,9,saw#1 entry RT not working in auto,,reclassified_non_device,JANUARY26.xlsx
+2026-01-22,Jan-26,7,saw#1 entry RT not working in auto,,reclassified_non_device,JANUARY26.xlsx
+2026-01-22,Jan-26,17,saw#1 entry RT not working in auto,,reclassified_non_device,JANUARY26.xlsx
+2026-01-22,Jan-26,9,BDM EXIT RT not working,,reclassified_non_device,JANUARY26.xlsx
+2026-01-23,Jan-26,12,Photocell cleaning in CTL area,PHOTOCELL,explicit_sensor_column,JANUARY26.xlsx
+2026-01-24,Jan-26,13,OD1 cleaning in BDM,HMD,explicit_sensor_column,JANUARY26.xlsx
+2026-01-26,Jan-26,5,HMD cleaning in BDM,HMD,explicit_sensor_column,JANUARY26.xlsx
+2026-01-26,Jan-26,20,One billet rejected in BDM due to pinch roll 1 motor fault,,unresolved,JANUARY26.xlsx
+2026-01-26,Jan-26,31,One billet rejected in BDM due to pinch roll 1 motor fault,,unresolved,JANUARY26.xlsx
+2026-01-26,Jan-26,9,Strapping machin in fault (manual strapping done ),,unresolved,JANUARY26.xlsx
+2026-01-26,Jan-26,43,Saw#2 upper clamp feedback missing,PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-26,Jan-26,11,Saw#1 entry roller table fault,,reclassified_non_device,JANUARY26.xlsx
+2026-01-26,Jan-26,10,Saw#2 exit upper clamp lowering feedback missing,PROXIMITY,explicit_sensor_column,JANUARY26.xlsx
+2026-01-28,Jan-26,144,Cobble removal & mill readiness,,unresolved,JANUARY26.xlsx
+2026-01-28,Jan-26,9,CVR inspection,,unresolved,JANUARY26.xlsx
+2026-01-28,Jan-26,7,CVR inspection,,unresolved,JANUARY26.xlsx
+2026-01-28,Jan-26,11,Furnace kick off issue,LVDT,explicit_sensor_column,JANUARY26.xlsx
+2026-01-28,Jan-26,34,1 billet rejected at bdm & 1 hotout due to wb#3 trolley position out during rolling,,reclassified_non_device,JANUARY26.xlsx
+2026-01-29,Jan-26,7,HMD 1 & HMD #2 cleaning,HMD,explicit_sensor_column,JANUARY26.xlsx
+2026-01-29,Jan-26,35,18 cycle gap in furnace,,unresolved,JANUARY26.xlsx
+2026-01-29,Jan-26,129,CVR diverter cummulative fault,,unresolved,JANUARY26.xlsx
+2026-01-31,Jan-26,42,,,unresolved,JANUARY26.xlsx
+2026-01-31,Jan-26,24,,,unresolved,JANUARY26.xlsx
+2026-03-01,Mar-26,15,Saw-1 disc diameter detection fault,PHOTOCELL,explicit_sensor_column,March_2026.xlsx
+2026-03-02,Mar-26,12,BDM RT-1 cleaning,,unresolved,March_2026.xlsx
+2026-03-03,Mar-26,69,"BDM metal over-travel, 1 cobble",HMD,explicit_sensor_column,March_2026.xlsx
+2026-03-03,Mar-26,14,BDM exit RT-1 & RT-2 tripped,,unresolved,March_2026.xlsx
+2026-03-03,Mar-26,35,"BDM RT-1 & RT-2 trip, billet cobble",,unresolved,March_2026.xlsx
+2026-03-03,Mar-26,75,Charging crane tripped â 30 cycle gap,,unresolved,March_2026.xlsx
+2026-03-03,Mar-26,26,"BDM metal overtravel, rejected",HMD,explicit_sensor_column,March_2026.xlsx
+2026-03-06,Mar-26,33,Billet over-travelled in BDM,HMD,explicit_sensor_column,March_2026.xlsx
+2026-03-06,Mar-26,158,BDM exit guide encoder fault,ENCODER,explicit_sensor_column,March_2026.xlsx
+2026-03-06,Mar-26,48,FFB snap shear not working,PROXIMITY,explicit_sensor_column,March_2026.xlsx
+2026-03-07,Mar-26,6,Furnace CRT tripped,,reclassified_non_device,March_2026.xlsx
+2026-03-07,Mar-26,26,Kocks drive fault â hot out,,reclassified_non_device,March_2026.xlsx
+2026-03-08,Mar-26,10,CVR flap not open feedback active,ENCODER,explicit_sensor_column,March_2026.xlsx
+2026-03-09,Mar-26,13,Compactor air pressure low,PRESSURE_SWITCH,explicit_sensor_column,March_2026.xlsx
+2026-03-09,Mar-26,19,High profile not active â mill,,unresolved,March_2026.xlsx
+2026-03-09,Mar-26,29,"OD-1 flickering, billet rejected",HMD,explicit_sensor_column,March_2026.xlsx
+2026-03-12,Mar-26,29,"OD-1 didnât sense, billet rejected",HMD,explicit_sensor_column,March_2026.xlsx
+2026-03-15,Mar-26,27,Cooling bed photocell 9 & 10 flickering,PHOTOCELL,explicit_sensor_column,March_2026.xlsx
+2026-03-19,Mar-26,151,Shear-4 encoder coupling loose (1.5 cobble),ENCODER,explicit_sensor_column,March_2026.xlsx
+2026-03-20,Mar-26,15,Electrical LCS change â Kocks stop,,unresolved,March_2026.xlsx
+2026-03-21,Mar-26,8,KOCKS tripped,,unresolved,March_2026.xlsx
+2026-03-22,Mar-26,5,Stand-4 motor over-temperature,,unresolved,March_2026.xlsx
+2026-03-24,Mar-26,15,BDM DC link (DEA-01) fault,,unresolved,March_2026.xlsx
+2026-03-25,Mar-26,20,BDM DRA-01 fault,,unresolved,March_2026.xlsx
+2026-03-26,Mar-26,10,Std-2 motor over-temperature alarm,,unresolved,March_2026.xlsx
+2026-03-27,Mar-26,10,Saw-2 exit clamp feedback missing,PROXIMITY,explicit_sensor_column,March_2026.xlsx
+2026-03-28,Mar-26,5,OD-1 sensing issue â slow rolling,HMD,explicit_sensor_column,March_2026.xlsx
+2026-03-28,Mar-26,150,BDM exit bar-turner transducer fault,LVDT,explicit_sensor_column,March_2026.xlsx
+2026-03-29,Mar-26,17,Saw-2 upper clamp feedback missing,PROXIMITY,explicit_sensor_column,March_2026.xlsx
+2026-03-29,Mar-26,5,Std-2 motor over-temperature,,unresolved,March_2026.xlsx
+2026-03-30,Mar-26,41,BDM exit bar-turner didnât rotate,ENCODER,explicit_sensor_column,March_2026.xlsx
+2026-03-31,Mar-26,7,Electrical work at compactor â pallet area full,ENCODER,explicit_sensor_column,March_2026.xlsx
+2026-04-01,Apr-26,5,Kick off malfunctioning,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,60,Tmb gear positioning issue / section change,,unresolved,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,15,"FFB, TMB water pressure not ok",PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,52,Tmb drives fault,,unresolved,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,10,1 billet skew manual discharging,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,5,2 cycle gap in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,5,2 cycle gap in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,45,Cobble due to waterbox 3 position out,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,105,Delay continues from previous shift(Cobble due to waterbox 3 position out),LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-02,Apr-26,15,Pellet area full due to compatcor unit 1 in fault,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-03-04,Apr-26,66,"collecting arm did not open,one metal auto chopped,one rejected in bdm",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-03-04,Apr-26,42,"collecting arm did not open,one metal auto chopped,one rejected in bdm",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-03-04,Apr-26,6,od#3 high,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-03-04,Apr-26,21,one billet rejected in mill due to od#1 flickering,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-03-04,Apr-26,20,1 pump taken in line from utility as pressure decreasing,PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-03-04,Apr-26,4,HMD 24 not reliable,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-04,Apr-26,106,pallet area turning point not turning,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-04,Apr-26,10,Kick off feedback missing,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-04,Apr-26,50,Kick off arm #1 LVDT broken,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-04,Apr-26,3,1 billet hotout due to TMB 1.1 overtemp alarm,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-04,Apr-26,230,Coil got stuck in reform tub + reform tub area auto sequence breaking frequently,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-05,Apr-26,100,"Kick off issue , not moving forward, electrical work at Kick off ",LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-05,Apr-26,9,Pallet area sensor cleaning by elec,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-05,Apr-26,8,BDM Unjamming pressure low and materials overtravel,PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-05,Apr-26,22,One metals cooble in due to BDM HMD EV1 not senseing in 2nd pass,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-06,Apr-26,20,"1 metal cobble in BDM , 3rd pass exit guide operator side fault ",ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-07,Apr-26,35,Saw 2 forward/backward feedback missing,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-07,Apr-26,8,1 billet rejected in BDM due to drive side exit side guide maximun opening,,unresolved,April_Delays_marked_.xlsx
+2026-04-07,Apr-26,20,BDM HMD checking,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-07,Apr-26,24,2 metal hot out due to stand 6 water delivery valve failed to open,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-07,Apr-26,5,Bundling photocell cleaning,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,35,Section A & B roller table not working,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,43,BDM exit RT tripped,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,8,04 cycle gap in fce due to CRT tripped,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,18,Sh#3 bucket door feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,9,One billet rejected in BDM due to BDM exit RT tripped,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,17,Saw#2 open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,17,Saw#2 open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,11,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,7,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,5,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,7,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,9,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-08-04,Apr-26,20,Saw#2 entry open close feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-09,Apr-26,10,Kick off not lifting billet properly,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-09,Apr-26,25,Saw#2 forward reverse feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-09,Apr-26,45,Saw#2 entry side clamp feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-09,Apr-26,15,Saw 1 blade change and BDM HMD Cleaning,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,3,saw#2 clamp feedback issue,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,4,saw#2 clamp feedback issue,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,25,Elec team working in bdm(HMD elevation correction ),HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,12,05 cg in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,14,Saw#2 auto sequence break,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,15,BDM HMD cleaning (checklist activities done),HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-10,Apr-26,93,"Saw 1 lower clamp feedback missing, Saw 2 photocell high ",PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-11,Apr-26,15,saw#1 exit upper clamp feedback missing,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-11,Apr-26,56,"bdm bar turner did not turn in 3rd pass(bar turner exit side maximum ccw position fault,one billet rejected ",ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-11,Apr-26,5,Std. 7 overtemperature alarm,,unresolved,April_Delays_marked_.xlsx
+2026-04-11,Apr-26,26,Electrical work at BDM Exit bar Turner,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-11,Apr-26,13,Std 7 overtemperature alarm,,unresolved,April_Delays_marked_.xlsx
+2026-04-12,Apr-26,39,"exit side guide in fault ,one billet rejected + hmd ,camera cleaning",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-13,Apr-26,14,Side guide fault in BDM,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-13,Apr-26,128,Takeover fault in bamicon system (communication fault),,unresolved,April_Delays_marked_.xlsx
+2026-04-13,Apr-26,15,Saw#1 entry roller table not working,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-13,Apr-26,10,Photocell alignment out,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-13,Apr-26,10,Photo cell cleaning,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-14,Apr-26,77,38 cycle gap in Fce due to mechanical work in crane,,unresolved,April_Delays_marked_.xlsx
+2026-04-14,Apr-26,7,Furnace cycle gap,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-14,Apr-26,10,Furnace cycle gap,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-14,Apr-26,10,BDM exit roller trip,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-15,Apr-26,12,BDM transfer trolley chain tightening + Scale cleaning + HMD cleaning,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-15,Apr-26,10,1 billet cobble at Bdm due to ev1 high,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-15,Apr-26,4,Bdm roller table tripped,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-16,Apr-26,50,1 billet missroll in BDM due to overtravelled in 2nd pass,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-16,Apr-26,5,BDM exit roller trip,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-16,Apr-26,5,Descaler pressure dropped,PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-16,Apr-26,28,Kocks guide #3 Motion timeout alarm (communication fault ),,unresolved,April_Delays_marked_.xlsx
+2026-04-16,Apr-26,15,"BDM HMD Cleaning, check sheet done",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-16,Apr-26,16,Shear 4 bucket change & bdm hmd cleaning,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-18,Apr-26,20,Std#6 water flow minimum,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-18,Apr-26,25,Disc saw #2 photocell fault,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-18,Apr-26,12,H1 pressure dropped,PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-18,Apr-26,20,Bdm hmd OD1 not sensing,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-18,Apr-26,20,Stand 13 roll cooling water minimum,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-18,Apr-26,40,"Stand 13 roll cooling water minimum, flow switch changed",FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,17,Std#8 water flow minimum,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,13,1 billet rejected in BDM + 1 hotout due to std#13 gear box lubrication flow low,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,38,"Conveyor 403 sensor fault, one metal all shear'ed ",ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,23,Reform tub proxy changed,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,12,Conveyor 403 issue,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,53,Conveyor 403 issue,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-19,Apr-26,13,Proxy change continued from previous shift,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-20,Apr-26,15,Electrical work at BDM HMD Air line,HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-21,Apr-26,14,tmb#2.2 motor overtemperature,,unresolved,April_Delays_marked_.xlsx
+2026-04-22,Apr-26,12,Kick off feedback missing,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-22,Apr-26,5,Stand 4 overtemperature alarm,,unresolved,April_Delays_marked_.xlsx
+2026-04-22,Apr-26,97,1 metal rejected in BDM due to lifting device is not working in pallet area,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-22,Apr-26,19,9 cycle gap in fce due billet deposite device in fault,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-23,Apr-26,17,"One billet rejected in BDM , metal overtravelled in 1st pass",ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-23,Apr-26,13,One metal hot out and one metal rejected due to billet overtravelled after second pass in BDM,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-23,Apr-26,10,Bdm operator side roll balancing pressure low,PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,7,Std 8 cooling water low,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,6,2 cycle gap in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,7,5 cycle gap in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,5,5 cycle gap in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,22,"8 cycle gap in Fce , Heat change ",PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,10,"8 cycle gap in Fce , Heat change ",PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,4,2 cycle gap in fce,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-24,Apr-26,115,Error in bamicon server and AIC communication fault,,unresolved,April_Delays_marked_.xlsx
+2026-04-25,Apr-26,41,LH PR oil bushing pressure minimum,PRESSURE_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-25,Apr-26,10,TMB 2.2 & Stand 7 overtemperature,,unresolved,April_Delays_marked_.xlsx
+2026-04-26,Apr-26,60,Shear 4 compressed air low,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-26,Apr-26,10,"Strapping mc1 not operating in auto/manual, strapping mc2 bundle not stopping in home position",PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+,Apr-26,7,RT#2 tripped and saw#1 lower clamp timeout,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+,Apr-26,10,RT#2 tripped and saw#1 lower clamp timeout,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+,Apr-26,13,06 cg in fce due to billet deposit device proxy adj,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-27,Apr-26,3,Photocell #1 and #2 didn't sense in cooling bed,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-27,Apr-26,21,One metal rejected and one hot out due to metal didn't turn after second pass,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-27,Apr-26,53,Metal all shear'ed in mill due to bar overtravelled in cooling bed,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,5,BDM RT3 tripped 01 ho,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,17,Sample checking + std#4 water flow minimum,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,71,C.B full due to clamp feedback issue os saw#2,PROXIMITY,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,10,Saw#2 exit RT tripped,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,5,Stand 4 water flow minimum,FLOW_SWITCH,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,9,"Metal stopped in Descalar, rolled manually ",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-28,Apr-26,8,"OD#4, OD#6 flickering ",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-29,Apr-26,6,01 metal hot out due to RT3 tripped in bdm,ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-29,Apr-26,6,Saw-2 disc dia detection,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-29,Apr-26,27,Saw 2 disc dia detection fault,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-29,Apr-26,12,Furnace exit RT tripped,LVDT,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-29,Apr-26,6,"Metal stopped in BDM RT1, RT1 warning (rolled manually) ",HMD,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,5,Saw#2 disk detection fault,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,20,Saw#2 disk detection fault,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,10,All drive tripped,,unresolved,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,80,10 cycle gap in fce + Walking beam not working in auto or manual mode + Mechanical worked at saw1 wheel stopper,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,6,Manual charging of billet (Issue in kick-in),ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,5,Manual charging of billet (Issue in kick-in),ENCODER,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-04-30,Apr-26,21,6 cycle gap in fce + Walking beam not working in auto,PHOTOCELL,explicit_sensor_column,April_Delays_marked_.xlsx
+2026-05-01,May-26,16.76666667,Stand 2 and 4 water flow min,FLOW_SWITCH,explicit_sensor_column,MAY2026.xlsx
+2026-05-01,May-26,6.966666667,Discharging photo cell high,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-01,May-26,8.066666667,Knives position error,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-01,May-26,6.9,BDM Exit roller table fault,,reclassified_non_device,MAY2026.xlsx
+2026-05-01,May-26,3.55,BDM Entry RT3 Tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-01,May-26,2.633333333,BDM Entry RT3 Tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-02,May-26,19.45,one billet rejected in bdm due to bdm exit roller table 2 tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-02,May-26,5.25,hmd cleaning in bdm,HMD,explicit_sensor_column,MAY2026.xlsx
+2026-05-03,May-26,10.93333333,hmd cleaning due to cooling bed continuity alarm,HMD,explicit_sensor_column,MAY2026.xlsx
+2026-05-03,May-26,15.73333333,1 billet hotout (Billet didn't bite in 1st pass,,reclassified_non_device,MAY2026.xlsx
+2026-05-04,May-26,73.3,"Apron roller table missed cuts, metal overtravelled",,reclassified_non_device,MAY2026.xlsx
+2026-05-05,May-26,6.65,RT1EV tripped 01 billet rejected,,reclassified_non_device,MAY2026.xlsx
+2026-05-05,May-26,8.266666667,hmd 31 cleaning,HMD,explicit_sensor_column,MAY2026.xlsx
+2026-05-05,May-26,10.95,Auto sequence break due to PH8 flickering,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-05,May-26,16.26666667,Layer not moving in auto from saw 1 entry,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-05,May-26,14.98333333,Layer not moving in auto from saw 1 entry,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-05,May-26,21.18333333,bar misalign at saw#1 and saw#2,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-06,May-26,15.05,ph#3 flickering in cooling bed,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-06,May-26,11.23333333,Sequence breaking in cooling bed,,reclassified_non_device,MAY2026.xlsx
+2026-05-06,May-26,3.983333333,sequence break at ctl,,reclassified_non_device,MAY2026.xlsx
+2026-05-06,May-26,5.816666667,sequence break at ctl,,reclassified_non_device,MAY2026.xlsx
+2026-05-07,May-26,13.43333333,bar overtavel in ctl roller table,,reclassified_non_device,MAY2026.xlsx
+2026-05-07,May-26,28.53333333,Saw 1 exit upper clamp feedback missing,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-07,May-26,2.8,Exit RT fault,,reclassified_non_device,MAY2026.xlsx
+2026-05-07,May-26,4.266666667,side  guide entry operator side in fault,ENCODER,explicit_sensor_column,MAY2026.xlsx
+2026-05-07,May-26,3.716666667,"ev1 flickerd,manually rolled",HMD,explicit_sensor_column,MAY2026.xlsx
+2026-05-09,May-26,83.83333333,BDM Transfer trolley alignment out,ENCODER,explicit_sensor_column,MAY2026.xlsx
+2026-05-10,May-26,51.4,"One metal hot out due to RT1 Tripped, Frontend stuck in reform tub",,reclassified_non_device,MAY2026.xlsx
+2026-05-11,May-26,45.9,RT1 ev tripped and rejection bench clearing,,reclassified_non_device,MAY2026.xlsx
+2026-05-11,May-26,5.05,Drive communication fault,,unresolved,MAY2026.xlsx
+2026-05-11,May-26,15.08333333,Drive communication fault,,unresolved,MAY2026.xlsx
+2026-05-11,May-26,39.66666667,Drive communication fault (2 billet chopped in mill and 1 hotout),,reclassified_non_device,MAY2026.xlsx
+2026-05-12,May-26,46.35,One metal rejected due to abnormal cut in shear 1,ENCODER,explicit_sensor_column,MAY2026.xlsx
+2026-05-12,May-26,7,STD 10 Overtemperature alarm,,unresolved,MAY2026.xlsx
+2026-05-12,May-26,5.816666667,BDM rt1 tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-13,May-26,2.416666667,bdm entry roller table tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-13,May-26,2.55,bdm entry rt tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-17,May-26,68.8,"Metal rejected in BDM , Delay continued from previous shift",,unresolved,MAY2026.xlsx
+2026-05-17,May-26,28.66666667,Saw 1 upper clamp feedback missing,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-17,May-26,13.63333333,Bundling weighing photocell issue,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-17,May-26,57.93333333,Saw 2 clamp feedback missing,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-17,May-26,1.683333333,disk detection fault,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-18,May-26,5.7,wrong length calculation by the system for 6m billet  (1 billet auto chopped in shear 4 ),PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-18,May-26,5.733333333,slow rolling of 6m billet,,unresolved,MAY2026.xlsx
+2026-05-18,May-26,4.8,wrong length calculation by the system for 6m billet,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-19,May-26,8.333333333,BDM RT tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-19,May-26,45.13333333,Cutting cycle not taking in auto and manual,,unresolved,MAY2026.xlsx
+2026-05-19,May-26,33,extractioin trolly#3 striker out,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-20,May-26,5.483333333,extraction trolly#1 time out,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-20,May-26,27.78333333,Bundling area full(Bundle moved forward without strapping),,unresolved,MAY2026.xlsx
+2026-05-21,May-26,163,"1 )section change to 75 from 63 mm,sh#4 pinch roll change by mechanical,54'  2)bdm unjamming pressure resetting issue ,electrical+mechanical, 110'",PRESSURE_SWITCH,explicit_sensor_column,MAY2026.xlsx
+2026-05-22,May-26,101.6833333,"metal auto chopped in sh#3 ,head cut missed in sh#2, bend head stuck in exit roller table (operation and electric)",,reclassified_non_device,MAY2026.xlsx
+2026-05-22,May-26,2.35,bdm exit roller table tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-22,May-26,20.06666667,kick off arm#3 mc feedback missing,LVDT,explicit_sensor_column,MAY2026.xlsx
+2026-05-23,May-26,2.15,std#7 overtemperature alarm,,unresolved,MAY2026.xlsx
+2026-05-23,May-26,19.15,sequence break in ctl,,reclassified_non_device,MAY2026.xlsx
+2026-05-23,May-26,11.76666667,disk saw 2 disk detection fault,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-23,May-26,25.48333333,rollertable tripped,,unresolved,MAY2026.xlsx
+2026-05-23,May-26,11.5,bdm entry bar turner feedback missing,LVDT,explicit_sensor_column,MAY2026.xlsx
+2026-05-23,May-26,27.11666667,"1) RT lineup section#2,6,7 motor tripped 14'   2) bdm + mill inspection 13'",,reclassified_non_device,MAY2026.xlsx
+2026-05-24,May-26,2.183333333,bdm exit rt tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-24,May-26,5.95,stand 7 motor overtemp,,unresolved,MAY2026.xlsx
+2026-05-24,May-26,6.933333333,4 cycle gap in fce,,unresolved,MAY2026.xlsx
+2026-05-24,May-26,31.86666667,"Problem in disc saw 2 changing, Crane not available(CD bay DSL power cut)",,unresolved,MAY2026.xlsx
+2026-05-24,May-26,38.01666667,"Problem in disc saw 2 changing, Crane not available(CD bay DSL power cut)",,unresolved,MAY2026.xlsx
+2026-05-24,May-26,27.68333333,one billet ho due to bar turner did not turn in ist pass (e&m),ENCODER,explicit_sensor_column,MAY2026.xlsx
+2026-05-25,May-26,257.1333333,"rolling stopped due to empty furnace,CRANE#6 breakdown",,unresolved,MAY2026.xlsx
+2026-05-25,May-26,74.11666667,"rolling stopped due to empty furnace,CRANE#6 breakdown",,unresolved,MAY2026.xlsx
+2026-05-25,May-26,3.183333333,Motor over temp,,unresolved,MAY2026.xlsx
+2026-05-25,May-26,14.25,Stand 2 blower supporting bolt replaced,,unresolved,MAY2026.xlsx
+2026-05-26,May-26,4.75,2 cycle gap (Billet deposit device position out),PROXIMITY,explicit_sensor_column,MAY2026.xlsx
 2026-05-26,May-26,7.916666667,Knives pos following error,ENCODER,keyword:knives pos,MAY2026.xlsx
-2026-05-27,May-26,12.43333333,disk measuring fault,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-27,May-26,52.2,saw 2 photocell changing,PHOTOCELL,explicit_sensor,MAY2026.xlsx
-2026-05-28,May-26,10.23333333,Cooling water min,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-29,May-26,8.066666667,Cooling bed aligning roller table tripped,,needs_keyword_tag,MAY2026.xlsx
-2026-05-30,May-26,18.16666667,C.B full due to bar got misaligned on extraction trolley in auto mode,,needs_keyword_tag,MAY2026.xlsx
-2026-05-30,May-26,9.716666667,Flywheel positioning proxy fault,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-30,May-26,28.91666667,Flywheel positioning proxy fault,PROXIMITY,explicit_sensor,MAY2026.xlsx
-2026-05-31,May-26,111.25,Electrical working in drag chain speed,ENCODER,explicit_sensor,MAY2026.xlsx
+2026-05-27,May-26,12.43333333,disk measuring fault,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-27,May-26,52.2,saw 2 photocell changing,PHOTOCELL,explicit_sensor_column,MAY2026.xlsx
+2026-05-28,May-26,10.23333333,Cooling water min,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-29,May-26,8.066666667,Cooling bed aligning roller table tripped,,reclassified_non_device,MAY2026.xlsx
+2026-05-30,May-26,18.16666667,C.B full due to bar got misaligned on extraction trolley in auto mode,,unresolved,MAY2026.xlsx
+2026-05-30,May-26,9.716666667,Flywheel positioning proxy fault,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-30,May-26,28.91666667,Flywheel positioning proxy fault,PROXIMITY,explicit_sensor_column,MAY2026.xlsx
+2026-05-31,May-26,111.25,Electrical working in drag chain speed,ENCODER,explicit_sensor_column,MAY2026.xlsx

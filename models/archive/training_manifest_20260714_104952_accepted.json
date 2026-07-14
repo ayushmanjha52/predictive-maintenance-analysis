@@ -1,0 +1,40 @@
+{
+  "trained_at": "2026-07-14T10:51:00.380171",
+  "winner": "random_forest_tuned",
+  "n_features": 168,
+  "n_samples": 427,
+  "n_classes": 12,
+  "classes": [
+    "ENCODER",
+    "FLOW_SWITCH",
+    "HMD",
+    "LASER",
+    "LVDT",
+    "OVERTRAVEL",
+    "PHOTOCELL",
+    "PRESSURE_SWITCH",
+    "PROXIMITY",
+    "PROXIMITY_SWITCH",
+    "ROLLER_TABLE",
+    "SEQUENCE_BREAK"
+  ],
+  "holdout_month": "May-26",
+  "all_candidates": {
+    "random_forest_tuned": {
+      "cv_accuracy": 0.7447,
+      "holdout_accuracy": 0.6935
+    },
+    "hist_gradient_boosting": {
+      "cv_accuracy": 0.5012,
+      "holdout_accuracy": 0.5484
+    },
+    "logistic_regression": {
+      "cv_accuracy": 0.726,
+      "holdout_accuracy": 0.629
+    },
+    "catboost": {
+      "cv_accuracy": 0.719,
+      "holdout_accuracy": 0.6452
+    }
+  }
+}

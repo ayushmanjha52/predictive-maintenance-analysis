@@ -1,15 +1,15 @@
 {
-  "searched_at": "2026-07-13T13:10:09.186424",
+  "searched_at": "2026-07-14T10:33:54.307539",
   "best_params": {
-    "class_weight": "balanced_subsample",
+    "class_weight": "balanced",
     "max_depth": null,
-    "max_features": "sqrt",
+    "max_features": "log2",
     "min_samples_leaf": 1,
-    "min_samples_split": 8,
-    "n_estimators": 264
+    "min_samples_split": 5,
+    "n_estimators": 387
   },
-  "cv_weighted_f1": 0.7634,
-  "holdout_accuracy": 0.7027,
+  "cv_weighted_f1": 0.7408,
+  "holdout_accuracy": 0.7097,
   "holdout_month": "May-26",
   "note": "These are candidate parameters, NOT a deployed model. Compare holdout_accuracy against train.py's training_manifest.json before merging into CANDIDATE_MODELS in train.py."
 }
